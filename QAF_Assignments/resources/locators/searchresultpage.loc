@@ -1,0 +1,2 @@
+lnk.sourceDestination.result = {\"locator\":\"xpath=//div[@data-test-id='airports']\",\"desc\":\"source and destination links from results\"}
+btn.select.result = {\"locator\":\"xpath=//button[@data-test-id='select-button']\",\"desc\":\"select button\"}

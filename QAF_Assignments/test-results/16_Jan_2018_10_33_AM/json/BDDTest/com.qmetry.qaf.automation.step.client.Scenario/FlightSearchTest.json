@@ -1,0 +1,431 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "launchPage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.orbitz.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 44807
+        },
+        {
+          "commandName": "maximizeWindow",
+          "args": [
+            "{windowHandle=current}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1134
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "openflightTab",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=primary-header-flight, using=id}"
+          ],
+          "result": "id: 0.16731624566074377-1",
+          "subLogs": [],
+          "duration": 102
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: primary-header-flight",
+            "{\"id\":\"0.16731624566074377-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 403
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "enterSourceCity",
+      "args": [
+        "[Mumbai, India (BOM-Chhatrapati Shivaji Intl.)]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=flight-origin, using=id}"
+          ],
+          "result": "id: 0.16731624566074377-2",
+          "subLogs": [],
+          "duration": 257
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.id: flight-origin",
+            "{\"id\":\"0.16731624566074377-2\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 104
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[Mumbai, India (BOM-Chhatrapati Shivaji Intl.), txtbox.flyingFrom.flightsearch]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=flight-origin, using=id}"
+              ],
+              "result": "id: 0.16731624566074377-2",
+              "subLogs": [],
+              "duration": 195
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.id: flight-origin",
+                "{\"id\":\"0.16731624566074377-2\",\"value\":[\"Mumbai, India (BOM-Chhatrapati Shivaji Intl.)\"]}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 1558
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "enterDestinationCity",
+      "args": [
+        "[Bengaluru, India (BLR-Kempegowda Intl.)]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=flight-destination, using=id}"
+          ],
+          "result": "id: 0.16731624566074377-3",
+          "subLogs": [],
+          "duration": 38
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.id: flight-destination",
+            "{\"id\":\"0.16731624566074377-3\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 85
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[Bengaluru, India (BLR-Kempegowda Intl.), txtbox.flyingTo.flightsearch]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=flight-destination, using=id}"
+              ],
+              "result": "id: 0.16731624566074377-3",
+              "subLogs": [],
+              "duration": 25
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.id: flight-destination",
+                "{\"id\":\"0.16731624566074377-3\",\"value\":[\"Bengaluru, India (BLR-Kempegowda Intl.)\"]}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 775
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "enterDepartureDate",
+      "args": [
+        "[01/19/2018]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=flight-departing, using=id}"
+          ],
+          "result": "id: 0.16731624566074377-4",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.id: flight-departing",
+            "{\"id\":\"0.16731624566074377-4\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 92
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[01/19/2018, txtbox.departingDate.flightsearch]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=flight-departing, using=id}"
+              ],
+              "result": "id: 0.16731624566074377-4",
+              "subLogs": [],
+              "duration": 26
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.id: flight-departing",
+                "{\"id\":\"0.16731624566074377-4\",\"value\":[\"01/19/2018\"]}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 154
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "enterReturnDate",
+      "args": [
+        "[02/08/2018]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=flight-returning, using=id}"
+          ],
+          "result": "id: 0.16731624566074377-5",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.id: flight-returning",
+            "{\"id\":\"0.16731624566074377-5\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 93
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[02/08/2018, txtbox.returningDate.flightsearch]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=flight-returning, using=id}"
+              ],
+              "result": "id: 0.16731624566074377-5",
+              "subLogs": [],
+              "duration": 13
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.id: flight-returning",
+                "{\"id\":\"0.16731624566074377-5\",\"value\":[\"02/08/2018\"]}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 149
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickOnSearchButton",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=search-button, using=id}"
+          ],
+          "result": "id: 0.16731624566074377-6",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: search-button",
+            "{\"id\":\"0.16731624566074377-6\"}"
+          ],
+          "result": "timeout\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 300.25 seconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11485', ip: '10.11.31.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\\Users\\PRIYAN~1.PAT\\AppData\\Local\\Temp\\scoped_dir9920_2114}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: ee013d77ad12b8c2a39863988975458e",
+          "subLogs": [],
+          "duration": 300355
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "Then Validate the result",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given Open Tourism website",
+      "type": "TestStepPass",
+      "duration": 51155,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When Navigate on Flight tab",
+      "type": "TestStepPass",
+      "duration": 538,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And Enter Flying from as 'Mumbai, India (BOM-Chhatrapati Shivaji Intl.)'",
+      "type": "TestStepPass",
+      "duration": 2128,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "sendKeys 'Mumbai, India (BOM-Chhatrapati Shivaji Intl.)' into 'txtbox.flyingFrom.flightsearch'",
+          "type": "TestStepPass",
+          "duration": 1756,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then Enter Flying To as 'Bengaluru, India (BLR-Kempegowda Intl.)'",
+      "type": "TestStepPass",
+      "duration": 928,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "sendKeys 'Bengaluru, India (BLR-Kempegowda Intl.)' into 'txtbox.flyingTo.flightsearch'",
+          "type": "TestStepPass",
+          "duration": 802,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When Enter Departure date as '01/19/2018'",
+      "type": "TestStepPass",
+      "duration": 304,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "sendKeys '01/19/2018' into 'txtbox.departingDate.flightsearch'",
+          "type": "TestStepPass",
+          "duration": 182,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And Enter Return date as '02/08/2018'",
+      "type": "TestStepPass",
+      "duration": 286,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "sendKeys '02/08/2018' into 'txtbox.returningDate.flightsearch'",
+          "type": "TestStepPass",
+          "duration": 164,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then click on Search button",
+      "type": "TestStepFail",
+      "screenshot": "../img/FlightSearchTest_8lc6uucljgwi326.png",
+      "duration": 300407,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "timeout\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 300.25 seconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11485', ip: '10.11.31.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\\Users\\PRIYAN~1.PAT\\AppData\\Local\\Temp\\scoped_dir9920_2114}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: ee013d77ad12b8c2a39863988975458e",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then Validate the result",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.TimeoutException: timeout\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 300.25 seconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11485', ip: '10.11.31.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\\Users\\PRIYAN~1.PAT\\AppData\\Local\\Temp\\scoped_dir9920_2114}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: ee013d77ad12b8c2a39863988975458e\r\n\tat .Then click on Search button(scenarios/FlightSearchScenario.bdd:10)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:256)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:252)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)\r\n\tat com.qmetry.qaf.automation.step.CommonStep.click_aroundBody50(CommonStep.java:648)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)\r\n\tat com.qmetry.qaf.automation.step.CommonStep.click(CommonStep.java:647)\r\n\tat com.qaf_assignments.steps.FlightSearchSteps.clickOnSearchButton(FlightSearchSteps.java:48)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:122)\r\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:101)\r\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)\r\n\tat org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)\r\n\tat org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)\r\n"
+}

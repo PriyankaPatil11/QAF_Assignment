@@ -1,0 +1,260 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=https://www.orbitz.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 9462
+    },
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1126
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=primary-header-flight, using=id}"
+      ],
+      "result": "id: 0.17952212006167456-1",
+      "subLogs": [],
+      "duration": 80
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: primary-header-flight",
+        "{\"id\":\"0.17952212006167456-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 359
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=flight-origin, using=id}"
+      ],
+      "result": "[id: 0.17952212006167456-2]",
+      "subLogs": [],
+      "duration": 47
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=flight-origin, using=id}"
+      ],
+      "result": "id: 0.17952212006167456-2",
+      "subLogs": [],
+      "duration": 191
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.id: flight-origin",
+        "{\"id\":\"0.17952212006167456-2\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 208
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=flight-origin, using=id}"
+      ],
+      "result": "id: 0.17952212006167456-2",
+      "subLogs": [],
+      "duration": 172
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.id: flight-origin",
+        "{\"id\":\"0.17952212006167456-2\",\"value\":[\"Mumbai, India (BOM-Chhatrapati Shivaji Intl.)\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 946
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=flight-destination, using=id}"
+      ],
+      "result": "id: 0.17952212006167456-3",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.id: flight-destination",
+        "{\"id\":\"0.17952212006167456-3\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 59
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=flight-destination, using=id}"
+      ],
+      "result": "id: 0.17952212006167456-3",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.id: flight-destination",
+        "{\"id\":\"0.17952212006167456-3\",\"value\":[\"Bengaluru, India (BLR-Kempegowda Intl.)\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 781
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=flight-departing, using=id}"
+      ],
+      "result": "id: 0.17952212006167456-4",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.id: flight-departing",
+        "{\"id\":\"0.17952212006167456-4\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 71
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=flight-departing, using=id}"
+      ],
+      "result": "id: 0.17952212006167456-4",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.id: flight-departing",
+        "{\"id\":\"0.17952212006167456-4\",\"value\":[\"01/19/2018\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 154
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=flight-returning, using=id}"
+      ],
+      "result": "id: 0.17952212006167456-5",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.id: flight-returning",
+        "{\"id\":\"0.17952212006167456-5\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 90
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=flight-returning, using=id}"
+      ],
+      "result": "id: 0.17952212006167456-5",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.id: flight-returning",
+        "{\"id\":\"0.17952212006167456-5\",\"value\":[\"02/08/2018\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 134
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=search-button, using=id}"
+      ],
+      "result": "id: 0.17952212006167456-6",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: search-button",
+        "{\"id\":\"0.17952212006167456-6\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 10452
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@data-test-id='airports'], using=xpath}"
+      ],
+      "result": "[id: 0.35316970528647906-1, id: 0.35316970528647906-2, id: 0.35316970528647906-3, id: 0.35316970528647906-4, id: 0.35316970528647906-5, id: 0.35316970528647906-6, id: 0.35316970528647906-7, id: 0.35316970528647906-8, id: 0.35316970528647906-9, id: 0.35316970528647906-10, id: 0.35316970528647906-11, id: 0.35316970528647906-12, id: 0.35316970528647906-13, id: 0.35316970528647906-14, id: 0.35316970528647906-15, id: 0.35316970528647906-16, id: 0.35316970528647906-17, id: 0.35316970528647906-18, id: 0.35316970528647906-19, id: 0.35316970528647906-20, id: 0.35316970528647906-21, id: 0.35316970528647906-22, id: 0.35316970528647906-23, id: 0.35316970528647906-24, id: 0.35316970528647906-25, id: 0.35316970528647906-26, id: 0.35316970528647906-27, id: 0.35316970528647906-28, id: 0.35316970528647906-29, id: 0.35316970528647906-30, id: 0.35316970528647906-31, id: 0.35316970528647906-32, id: 0.35316970528647906-33, id: 0.35316970528647906-34, id: 0.35316970528647906-35, id: 0.35316970528647906-36, id: 0.35316970528647906-37, id: 0.35316970528647906-38, id: 0.35316970528647906-39, id: 0.35316970528647906-40, id: 0.35316970528647906-41, id: 0.35316970528647906-42, id: 0.35316970528647906-43, id: 0.35316970528647906-44, id: 0.35316970528647906-45, id: 0.35316970528647906-46, id: 0.35316970528647906-47, id: 0.35316970528647906-48, id: 0.35316970528647906-49, id: 0.35316970528647906-50, id: 0.35316970528647906-51, id: 0.35316970528647906-52, id: 0.35316970528647906-53, id: 0.35316970528647906-54, id: 0.35316970528647906-55, id: 0.35316970528647906-56, id: 0.35316970528647906-57, id: 0.35316970528647906-58, id: 0.35316970528647906-59, id: 0.35316970528647906-60, id: 0.35316970528647906-61, id: 0.35316970528647906-62, id: 0.35316970528647906-63, id: 0.35316970528647906-64, id: 0.35316970528647906-65, id: 0.35316970528647906-66, id: 0.35316970528647906-67, id: 0.35316970528647906-68, id: 0.35316970528647906-69, id: 0.35316970528647906-70, id: 0.35316970528647906-71, id: 0.35316970528647906-72, id: 0.35316970528647906-73, id: 0.35316970528647906-74, id: 0.35316970528647906-75, id: 0.35316970528647906-76, id: 0.35316970528647906-77, id: 0.35316970528647906-78, id: 0.35316970528647906-79, id: 0.35316970528647906-80]",
+      "subLogs": [],
+      "duration": 36
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//button[@data-test-id='select-button'], using=xpath}"
+      ],
+      "result": "[id: 0.35316970528647906-81, id: 0.35316970528647906-82, id: 0.35316970528647906-83, id: 0.35316970528647906-84, id: 0.35316970528647906-85, id: 0.35316970528647906-86, id: 0.35316970528647906-87, id: 0.35316970528647906-88, id: 0.35316970528647906-89, id: 0.35316970528647906-90, id: 0.35316970528647906-91, id: 0.35316970528647906-92, id: 0.35316970528647906-93, id: 0.35316970528647906-94, id: 0.35316970528647906-95, id: 0.35316970528647906-96, id: 0.35316970528647906-97, id: 0.35316970528647906-98, id: 0.35316970528647906-99, id: 0.35316970528647906-100, id: 0.35316970528647906-101, id: 0.35316970528647906-102, id: 0.35316970528647906-103, id: 0.35316970528647906-104, id: 0.35316970528647906-105, id: 0.35316970528647906-106, id: 0.35316970528647906-107, id: 0.35316970528647906-108, id: 0.35316970528647906-109, id: 0.35316970528647906-110, id: 0.35316970528647906-111, id: 0.35316970528647906-112, id: 0.35316970528647906-113, id: 0.35316970528647906-114, id: 0.35316970528647906-115, id: 0.35316970528647906-116, id: 0.35316970528647906-117, id: 0.35316970528647906-118, id: 0.35316970528647906-119, id: 0.35316970528647906-120, id: 0.35316970528647906-121, id: 0.35316970528647906-122, id: 0.35316970528647906-123, id: 0.35316970528647906-124, id: 0.35316970528647906-125, id: 0.35316970528647906-126, id: 0.35316970528647906-127, id: 0.35316970528647906-128, id: 0.35316970528647906-129, id: 0.35316970528647906-130, id: 0.35316970528647906-131, id: 0.35316970528647906-132, id: 0.35316970528647906-133, id: 0.35316970528647906-134, id: 0.35316970528647906-135, id: 0.35316970528647906-136, id: 0.35316970528647906-137, id: 0.35316970528647906-138, id: 0.35316970528647906-139, id: 0.35316970528647906-140, id: 0.35316970528647906-141, id: 0.35316970528647906-142, id: 0.35316970528647906-143, id: 0.35316970528647906-144, id: 0.35316970528647906-145, id: 0.35316970528647906-146, id: 0.35316970528647906-147, id: 0.35316970528647906-148, id: 0.35316970528647906-149, id: 0.35316970528647906-150, id: 0.35316970528647906-151, id: 0.35316970528647906-152, id: 0.35316970528647906-153, id: 0.35316970528647906-154, id: 0.35316970528647906-155, id: 0.35316970528647906-156, id: 0.35316970528647906-157, id: 0.35316970528647906-158, id: 0.35316970528647906-159, id: 0.35316970528647906-160]",
+      "subLogs": [],
+      "duration": 38
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //button[@data-test-id='select-button']",
+        "{\"id\":\"0.35316970528647906-81\"}"
+      ],
+      "result": "getElementText:Select\nSelect result 1 when sorted by price",
+      "subLogs": [],
+      "duration": 187
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "expected [Select\nSelect result 1 when sorted by price] but found [BOM - BLR]",
+      "type": "Fail",
+      "screenshot": "../img/flightSearchTest_1nvjmywkwa18828187.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "java.lang.AssertionError: expected [Select\nSelect result 1 when sorted by price] but found [BOM - BLR]\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:513)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:135)\r\n\tat org.testng.Assert.assertEquals(Assert.java:116)\r\n\tat org.testng.Assert.assertEquals(Assert.java:190)\r\n\tat org.testng.Assert.assertEquals(Assert.java:200)\r\n\tat com.qaf_assignments.pages.SearchresultPage.validateSearchResult(SearchresultPage.java:41)\r\n\tat com.qaf_assignments.tests.FlightSearchTest.flightSearchTest(FlightSearchTest.java:35)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:645)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:781)\r\n\tat org.testng.TestRunner.run(TestRunner.java:635)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:387)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1218)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1133)\r\n\tat org.testng.TestNG.run(TestNG.java:1104)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n"
+}

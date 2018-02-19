@@ -1,0 +1,451 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "launchPage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.orbitz.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 16767
+        },
+        {
+          "commandName": "maximizeWindow",
+          "args": [
+            "{windowHandle=current}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 2130
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "openflightTab",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=primary-header-flight, using=id}"
+          ],
+          "result": "id: 0.0055397943801882565-1",
+          "subLogs": [],
+          "duration": 2288
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: primary-header-flight",
+            "{\"id\":\"0.0055397943801882565-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 3558
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "enterSourceCity",
+      "args": [
+        "[${Source}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=flight-origin, using=id}"
+          ],
+          "result": "id: 0.0055397943801882565-2",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.id: flight-origin",
+            "{\"id\":\"0.0055397943801882565-2\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 517
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[Mumbai, India (BOM-Chhatrapati Shivaji Intl.), txtbox.flyingFrom.flightsearch]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=flight-origin, using=id}"
+              ],
+              "result": "id: 0.0055397943801882565-2",
+              "subLogs": [],
+              "duration": 13
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.id: flight-origin",
+                "{\"id\":\"0.0055397943801882565-2\",\"value\":[\"Mumbai, India (BOM-Chhatrapati Shivaji Intl.)\"]}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 1975
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "enterDestinationCity",
+      "args": [
+        "[${Destination}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=flight-destination, using=id}"
+          ],
+          "result": "id: 0.0055397943801882565-3",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.id: flight-destination",
+            "{\"id\":\"0.0055397943801882565-3\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 58
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[Bengaluru, India (BLR-Kempegowda Intl.), txtbox.flyingTo.flightsearch]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=flight-destination, using=id}"
+              ],
+              "result": "id: 0.0055397943801882565-3",
+              "subLogs": [],
+              "duration": 17
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.id: flight-destination",
+                "{\"id\":\"0.0055397943801882565-3\",\"value\":[\"Bengaluru, India (BLR-Kempegowda Intl.)\"]}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 644
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "enterDepartureDate",
+      "args": [
+        "[${DepartureDate}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=flight-departing, using=id}"
+          ],
+          "result": "id: 0.0055397943801882565-4",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.id: flight-departing",
+            "{\"id\":\"0.0055397943801882565-4\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 68
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[02/19/2018, txtbox.departingDate.flightsearch]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=flight-departing, using=id}"
+              ],
+              "result": "id: 0.0055397943801882565-4",
+              "subLogs": [],
+              "duration": 12
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.id: flight-departing",
+                "{\"id\":\"0.0055397943801882565-4\",\"value\":[\"02/19/2018\"]}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 186
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "enterReturnDate",
+      "args": [
+        "[${ReturnDate}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=flight-returning, using=id}"
+          ],
+          "result": "id: 0.0055397943801882565-5",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.id: flight-returning",
+            "{\"id\":\"0.0055397943801882565-5\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 93
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[03/08/2018, txtbox.returningDate.flightsearch]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=flight-returning, using=id}"
+              ],
+              "result": "id: 0.0055397943801882565-5",
+              "subLogs": [],
+              "duration": 12
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.id: flight-returning",
+                "{\"id\":\"0.0055397943801882565-5\",\"value\":[\"03/08/2018\"]}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 127
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickOnSearchButton",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=search-button, using=id}"
+          ],
+          "result": "id: 0.0055397943801882565-6",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: search-button",
+            "{\"id\":\"0.0055397943801882565-6\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 5771
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "validateSearchResult",
+      "args": [
+        "[${Destination}, lnk.sourceDestination.result]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@data-test-id='airports'], using=xpath}"
+          ],
+          "result": "[id: 0.29866310439016175-1, id: 0.29866310439016175-2, id: 0.29866310439016175-3, id: 0.29866310439016175-4, id: 0.29866310439016175-5, id: 0.29866310439016175-6, id: 0.29866310439016175-7, id: 0.29866310439016175-8, id: 0.29866310439016175-9, id: 0.29866310439016175-10, id: 0.29866310439016175-11, id: 0.29866310439016175-12, id: 0.29866310439016175-13, id: 0.29866310439016175-14, id: 0.29866310439016175-15, id: 0.29866310439016175-16, id: 0.29866310439016175-17, id: 0.29866310439016175-18, id: 0.29866310439016175-19, id: 0.29866310439016175-20, id: 0.29866310439016175-21, id: 0.29866310439016175-22, id: 0.29866310439016175-23, id: 0.29866310439016175-24, id: 0.29866310439016175-25, id: 0.29866310439016175-26, id: 0.29866310439016175-27, id: 0.29866310439016175-28, id: 0.29866310439016175-29, id: 0.29866310439016175-30, id: 0.29866310439016175-31, id: 0.29866310439016175-32, id: 0.29866310439016175-33, id: 0.29866310439016175-34, id: 0.29866310439016175-35, id: 0.29866310439016175-36, id: 0.29866310439016175-37, id: 0.29866310439016175-38, id: 0.29866310439016175-39, id: 0.29866310439016175-40, id: 0.29866310439016175-41, id: 0.29866310439016175-42, id: 0.29866310439016175-43, id: 0.29866310439016175-44, id: 0.29866310439016175-45, id: 0.29866310439016175-46, id: 0.29866310439016175-47, id: 0.29866310439016175-48, id: 0.29866310439016175-49, id: 0.29866310439016175-50, id: 0.29866310439016175-51, id: 0.29866310439016175-52, id: 0.29866310439016175-53, id: 0.29866310439016175-54, id: 0.29866310439016175-55, id: 0.29866310439016175-56, id: 0.29866310439016175-57, id: 0.29866310439016175-58, id: 0.29866310439016175-59, id: 0.29866310439016175-60, id: 0.29866310439016175-61, id: 0.29866310439016175-62, id: 0.29866310439016175-63, id: 0.29866310439016175-64, id: 0.29866310439016175-65, id: 0.29866310439016175-66, id: 0.29866310439016175-67, id: 0.29866310439016175-68, id: 0.29866310439016175-69, id: 0.29866310439016175-70, id: 0.29866310439016175-71, id: 0.29866310439016175-72, id: 0.29866310439016175-73, id: 0.29866310439016175-74, id: 0.29866310439016175-75, id: 0.29866310439016175-76, id: 0.29866310439016175-77, id: 0.29866310439016175-78, id: 0.29866310439016175-79, id: 0.29866310439016175-80]",
+          "subLogs": [],
+          "duration": 146
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "id: 0.29866310439016175-1",
+            "{\"id\":\"0.29866310439016175-1\"}"
+          ],
+          "result": "getElementText:BOM - BLR",
+          "subLogs": [],
+          "duration": 59
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given Open Tourism website",
+      "type": "TestStepPass",
+      "duration": 33548,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When Navigate on Flight tab",
+      "type": "TestStepPass",
+      "duration": 6438,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And Enter Flying from as 'Mumbai, India (BOM-Chhatrapati Shivaji Intl.)'",
+      "type": "TestStepPass",
+      "duration": 2548,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "sendKeys 'Mumbai, India (BOM-Chhatrapati Shivaji Intl.)' into 'txtbox.flyingFrom.flightsearch'",
+          "type": "TestStepPass",
+          "duration": 1992,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then Enter Flying To as 'Bengaluru, India (BLR-Kempegowda Intl.)'",
+      "type": "TestStepPass",
+      "duration": 746,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "sendKeys 'Bengaluru, India (BLR-Kempegowda Intl.)' into 'txtbox.flyingTo.flightsearch'",
+          "type": "TestStepPass",
+          "duration": 664,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When Enter Departure date as '02/19/2018'",
+      "type": "TestStepPass",
+      "duration": 298,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "sendKeys '02/19/2018' into 'txtbox.departingDate.flightsearch'",
+          "type": "TestStepPass",
+          "duration": 200,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And Enter Return date as '03/08/2018'",
+      "type": "TestStepPass",
+      "duration": 258,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "sendKeys '03/08/2018' into 'txtbox.returningDate.flightsearch'",
+          "type": "TestStepPass",
+          "duration": 140,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then click on Search button",
+      "type": "TestStepPass",
+      "duration": 5792,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then Validate the result 'Bengaluru, India (BLR-Kempegowda Intl.)' from 'lnk.sourceDestination.result'",
+      "type": "TestStepFail",
+      "screenshot": "test-results/17_Jan_2018_05_19_PM/img/Search Flight_45j6qdqt5pxe51442.png",
+      "duration": 228,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "expected [BOM - BLR] but found [Bengaluru, India (BLR-Kempegowda Intl.)]",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "java.lang.AssertionError: expected [BOM - BLR] but found [Bengaluru, India (BLR-Kempegowda Intl.)]\r\n\tat .Then Validate the result '${Destination}' from 'lnk.sourceDestination.result'(scenarios/FlightSearchScenario.bdd:12)\r\n\tat com.qaf_assignments.steps.SearchResultSteps.validateSearchResult(SearchResultSteps.java:38)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:95)\r\n"
+}

@@ -1,0 +1,451 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "launchPage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.orbitz.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 9642
+        },
+        {
+          "commandName": "maximizeWindow",
+          "args": [
+            "{windowHandle=current}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 4
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "openflightTab",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=primary-header-flight, using=id}"
+          ],
+          "result": "id: 0.2385918369480997-1",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: primary-header-flight",
+            "{\"id\":\"0.2385918369480997-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 669
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "enterSourceCity",
+      "args": [
+        "[${Source}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=flight-origin, using=id}"
+          ],
+          "result": "id: 0.2385918369480997-2",
+          "subLogs": [],
+          "duration": 145
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.id: flight-origin",
+            "{\"id\":\"0.2385918369480997-2\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 126
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[Pune, India (PNQ-Lohegaon), txtbox.flyingFrom.flightsearch]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=flight-origin, using=id}"
+              ],
+              "result": "id: 0.2385918369480997-2",
+              "subLogs": [],
+              "duration": 78
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.id: flight-origin",
+                "{\"id\":\"0.2385918369480997-2\",\"value\":[\"Pune, India (PNQ-Lohegaon)\"]}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 1047
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "enterDestinationCity",
+      "args": [
+        "[${Destination}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=flight-destination, using=id}"
+          ],
+          "result": "id: 0.2385918369480997-3",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.id: flight-destination",
+            "{\"id\":\"0.2385918369480997-3\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 54
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[Delhi, India (DEL-Indira Gandhi Intl.), txtbox.flyingTo.flightsearch]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=flight-destination, using=id}"
+              ],
+              "result": "id: 0.2385918369480997-3",
+              "subLogs": [],
+              "duration": 11
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.id: flight-destination",
+                "{\"id\":\"0.2385918369480997-3\",\"value\":[\"Delhi, India (DEL-Indira Gandhi Intl.)\"]}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 742
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "enterDepartureDate",
+      "args": [
+        "[${DepartureDate}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=flight-departing, using=id}"
+          ],
+          "result": "id: 0.2385918369480997-4",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.id: flight-departing",
+            "{\"id\":\"0.2385918369480997-4\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 101
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[02/19/2018, txtbox.departingDate.flightsearch]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=flight-departing, using=id}"
+              ],
+              "result": "id: 0.2385918369480997-4",
+              "subLogs": [],
+              "duration": 11
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.id: flight-departing",
+                "{\"id\":\"0.2385918369480997-4\",\"value\":[\"02/19/2018\"]}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 175
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "enterReturnDate",
+      "args": [
+        "[${ReturnDate}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=flight-returning, using=id}"
+          ],
+          "result": "id: 0.2385918369480997-5",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.id: flight-returning",
+            "{\"id\":\"0.2385918369480997-5\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 61
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[03/08/2018, txtbox.returningDate.flightsearch]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=flight-returning, using=id}"
+              ],
+              "result": "id: 0.2385918369480997-5",
+              "subLogs": [],
+              "duration": 9
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.id: flight-returning",
+                "{\"id\":\"0.2385918369480997-5\",\"value\":[\"03/08/2018\"]}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 145
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickOnSearchButton",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=search-button, using=id}"
+          ],
+          "result": "id: 0.2385918369480997-6",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: search-button",
+            "{\"id\":\"0.2385918369480997-6\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 6940
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "validateSearchResult",
+      "args": [
+        "[${Destination}, lnk.sourceDestination.result]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@data-test-id='airports'], using=xpath}"
+          ],
+          "result": "[id: 0.26023336489158067-1, id: 0.26023336489158067-2, id: 0.26023336489158067-3, id: 0.26023336489158067-4, id: 0.26023336489158067-5, id: 0.26023336489158067-6, id: 0.26023336489158067-7, id: 0.26023336489158067-8, id: 0.26023336489158067-9, id: 0.26023336489158067-10, id: 0.26023336489158067-11, id: 0.26023336489158067-12, id: 0.26023336489158067-13, id: 0.26023336489158067-14, id: 0.26023336489158067-15, id: 0.26023336489158067-16, id: 0.26023336489158067-17, id: 0.26023336489158067-18, id: 0.26023336489158067-19, id: 0.26023336489158067-20, id: 0.26023336489158067-21, id: 0.26023336489158067-22, id: 0.26023336489158067-23, id: 0.26023336489158067-24, id: 0.26023336489158067-25, id: 0.26023336489158067-26, id: 0.26023336489158067-27, id: 0.26023336489158067-28, id: 0.26023336489158067-29, id: 0.26023336489158067-30, id: 0.26023336489158067-31, id: 0.26023336489158067-32, id: 0.26023336489158067-33, id: 0.26023336489158067-34, id: 0.26023336489158067-35, id: 0.26023336489158067-36, id: 0.26023336489158067-37, id: 0.26023336489158067-38, id: 0.26023336489158067-39, id: 0.26023336489158067-40, id: 0.26023336489158067-41, id: 0.26023336489158067-42, id: 0.26023336489158067-43, id: 0.26023336489158067-44, id: 0.26023336489158067-45, id: 0.26023336489158067-46, id: 0.26023336489158067-47, id: 0.26023336489158067-48, id: 0.26023336489158067-49, id: 0.26023336489158067-50, id: 0.26023336489158067-51, id: 0.26023336489158067-52, id: 0.26023336489158067-53, id: 0.26023336489158067-54, id: 0.26023336489158067-55, id: 0.26023336489158067-56, id: 0.26023336489158067-57, id: 0.26023336489158067-58, id: 0.26023336489158067-59, id: 0.26023336489158067-60, id: 0.26023336489158067-61, id: 0.26023336489158067-62, id: 0.26023336489158067-63, id: 0.26023336489158067-64, id: 0.26023336489158067-65, id: 0.26023336489158067-66, id: 0.26023336489158067-67, id: 0.26023336489158067-68, id: 0.26023336489158067-69, id: 0.26023336489158067-70, id: 0.26023336489158067-71, id: 0.26023336489158067-72, id: 0.26023336489158067-73, id: 0.26023336489158067-74, id: 0.26023336489158067-75, id: 0.26023336489158067-76, id: 0.26023336489158067-77, id: 0.26023336489158067-78, id: 0.26023336489158067-79, id: 0.26023336489158067-80, id: 0.26023336489158067-81]",
+          "subLogs": [],
+          "duration": 66
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "id: 0.26023336489158067-1",
+            "{\"id\":\"0.26023336489158067-1\"}"
+          ],
+          "result": "getElementText:PNQ - DEL",
+          "subLogs": [],
+          "duration": 63
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given Open Tourism website",
+      "type": "TestStepPass",
+      "duration": 9649,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When Navigate on Flight tab",
+      "type": "TestStepPass",
+      "duration": 694,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And Enter Flying from as 'Pune, India (PNQ-Lohegaon)'",
+      "type": "TestStepPass",
+      "duration": 1403,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "sendKeys 'Pune, India (PNQ-Lohegaon)' into 'txtbox.flyingFrom.flightsearch'",
+          "type": "TestStepPass",
+          "duration": 1128,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then Enter Flying To as 'Delhi, India (DEL-Indira Gandhi Intl.)'",
+      "type": "TestStepPass",
+      "duration": 831,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "sendKeys 'Delhi, India (DEL-Indira Gandhi Intl.)' into 'txtbox.flyingTo.flightsearch'",
+          "type": "TestStepPass",
+          "duration": 753,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When Enter Departure date as '02/19/2018'",
+      "type": "TestStepPass",
+      "duration": 311,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "sendKeys '02/19/2018' into 'txtbox.departingDate.flightsearch'",
+          "type": "TestStepPass",
+          "duration": 189,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And Enter Return date as '03/08/2018'",
+      "type": "TestStepPass",
+      "duration": 245,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "sendKeys '03/08/2018' into 'txtbox.returningDate.flightsearch'",
+          "type": "TestStepPass",
+          "duration": 156,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then click on Search button",
+      "type": "TestStepPass",
+      "duration": 6959,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then Validate the result 'Delhi, India (DEL-Indira Gandhi Intl.)' from 'lnk.sourceDestination.result'",
+      "type": "TestStepFail",
+      "screenshot": "test-results/17_Jan_2018_05_19_PM/img/Search Flight_1im5qf8udm1ky51443.png",
+      "duration": 136,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "expected [PNQ - DEL] but found [Delhi, India (DEL-Indira Gandhi Intl.)]",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "java.lang.AssertionError: expected [PNQ - DEL] but found [Delhi, India (DEL-Indira Gandhi Intl.)]\r\n\tat .Then Validate the result '${Destination}' from 'lnk.sourceDestination.result'(scenarios/FlightSearchScenario.bdd:12)\r\n\tat com.qaf_assignments.steps.SearchResultSteps.validateSearchResult(SearchResultSteps.java:38)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:95)\r\n"
+}

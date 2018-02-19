@@ -1,0 +1,2041 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=https://www.orbitz.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 9458
+    },
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1129
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=primary-header-flight, using=id}"
+      ],
+      "result": "id: 0.40504115472260316-1",
+      "subLogs": [],
+      "duration": 63
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: primary-header-flight",
+        "{\"id\":\"0.40504115472260316-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 219
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=flight-origin, using=id}"
+      ],
+      "result": "[id: 0.40504115472260316-2]",
+      "subLogs": [],
+      "duration": 187
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=flight-origin, using=id}"
+      ],
+      "result": "id: 0.40504115472260316-2",
+      "subLogs": [],
+      "duration": 54
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.id: flight-origin",
+        "{\"id\":\"0.40504115472260316-2\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 232
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=flight-origin, using=id}"
+      ],
+      "result": "id: 0.40504115472260316-2",
+      "subLogs": [],
+      "duration": 138
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.id: flight-origin",
+        "{\"id\":\"0.40504115472260316-2\",\"value\":[\"Mumbai India (BOM-Chhatrapati Shivaji Intl.)\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 1577
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=flight-destination, using=id}"
+      ],
+      "result": "id: 0.40504115472260316-3",
+      "subLogs": [],
+      "duration": 39
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.id: flight-destination",
+        "{\"id\":\"0.40504115472260316-3\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 71
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=flight-destination, using=id}"
+      ],
+      "result": "id: 0.40504115472260316-3",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.id: flight-destination",
+        "{\"id\":\"0.40504115472260316-3\",\"value\":[\"Bengaluru India (BLR-Kempegowda Intl.)\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 731
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=flight-departing, using=id}"
+      ],
+      "result": "id: 0.40504115472260316-4",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.id: flight-departing",
+        "{\"id\":\"0.40504115472260316-4\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 70
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=flight-departing, using=id}"
+      ],
+      "result": "id: 0.40504115472260316-4",
+      "subLogs": [],
+      "duration": 37
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.id: flight-departing",
+        "{\"id\":\"0.40504115472260316-4\",\"value\":[\"01/19/2018\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 170
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=flight-returning, using=id}"
+      ],
+      "result": "id: 0.40504115472260316-5",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.id: flight-returning",
+        "{\"id\":\"0.40504115472260316-5\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 86
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=flight-returning, using=id}"
+      ],
+      "result": "id: 0.40504115472260316-5",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.id: flight-returning",
+        "{\"id\":\"0.40504115472260316-5\",\"value\":[\"02/08/2018\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 158
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=search-button, using=id}"
+      ],
+      "result": "id: 0.40504115472260316-6",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: search-button",
+        "{\"id\":\"0.40504115472260316-6\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 18119
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//button[@data-test-id='select-button'], using=xpath}"
+      ],
+      "result": "[id: 0.4372166282693366-1, id: 0.4372166282693366-2, id: 0.4372166282693366-3, id: 0.4372166282693366-4, id: 0.4372166282693366-5, id: 0.4372166282693366-6, id: 0.4372166282693366-7, id: 0.4372166282693366-8, id: 0.4372166282693366-9, id: 0.4372166282693366-10, id: 0.4372166282693366-11, id: 0.4372166282693366-12, id: 0.4372166282693366-13, id: 0.4372166282693366-14, id: 0.4372166282693366-15, id: 0.4372166282693366-16, id: 0.4372166282693366-17, id: 0.4372166282693366-18, id: 0.4372166282693366-19, id: 0.4372166282693366-20, id: 0.4372166282693366-21, id: 0.4372166282693366-22, id: 0.4372166282693366-23, id: 0.4372166282693366-24, id: 0.4372166282693366-25, id: 0.4372166282693366-26, id: 0.4372166282693366-27, id: 0.4372166282693366-28, id: 0.4372166282693366-29, id: 0.4372166282693366-30, id: 0.4372166282693366-31, id: 0.4372166282693366-32, id: 0.4372166282693366-33, id: 0.4372166282693366-34, id: 0.4372166282693366-35, id: 0.4372166282693366-36, id: 0.4372166282693366-37, id: 0.4372166282693366-38, id: 0.4372166282693366-39, id: 0.4372166282693366-40, id: 0.4372166282693366-41, id: 0.4372166282693366-42, id: 0.4372166282693366-43, id: 0.4372166282693366-44, id: 0.4372166282693366-45, id: 0.4372166282693366-46, id: 0.4372166282693366-47, id: 0.4372166282693366-48, id: 0.4372166282693366-49, id: 0.4372166282693366-50, id: 0.4372166282693366-51, id: 0.4372166282693366-52, id: 0.4372166282693366-53, id: 0.4372166282693366-54, id: 0.4372166282693366-55, id: 0.4372166282693366-56, id: 0.4372166282693366-57, id: 0.4372166282693366-58, id: 0.4372166282693366-59, id: 0.4372166282693366-60, id: 0.4372166282693366-61, id: 0.4372166282693366-62, id: 0.4372166282693366-63, id: 0.4372166282693366-64, id: 0.4372166282693366-65, id: 0.4372166282693366-66, id: 0.4372166282693366-67, id: 0.4372166282693366-68, id: 0.4372166282693366-69, id: 0.4372166282693366-70, id: 0.4372166282693366-71, id: 0.4372166282693366-72, id: 0.4372166282693366-73, id: 0.4372166282693366-74, id: 0.4372166282693366-75, id: 0.4372166282693366-76, id: 0.4372166282693366-77, id: 0.4372166282693366-78, id: 0.4372166282693366-79, id: 0.4372166282693366-80]",
+      "subLogs": [],
+      "duration": 36
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@data-test-id='airports'], using=xpath}"
+      ],
+      "result": "[id: 0.4372166282693366-81, id: 0.4372166282693366-82, id: 0.4372166282693366-83, id: 0.4372166282693366-84, id: 0.4372166282693366-85, id: 0.4372166282693366-86, id: 0.4372166282693366-87, id: 0.4372166282693366-88, id: 0.4372166282693366-89, id: 0.4372166282693366-90, id: 0.4372166282693366-91, id: 0.4372166282693366-92, id: 0.4372166282693366-93, id: 0.4372166282693366-94, id: 0.4372166282693366-95, id: 0.4372166282693366-96, id: 0.4372166282693366-97, id: 0.4372166282693366-98, id: 0.4372166282693366-99, id: 0.4372166282693366-100, id: 0.4372166282693366-101, id: 0.4372166282693366-102, id: 0.4372166282693366-103, id: 0.4372166282693366-104, id: 0.4372166282693366-105, id: 0.4372166282693366-106, id: 0.4372166282693366-107, id: 0.4372166282693366-108, id: 0.4372166282693366-109, id: 0.4372166282693366-110, id: 0.4372166282693366-111, id: 0.4372166282693366-112, id: 0.4372166282693366-113, id: 0.4372166282693366-114, id: 0.4372166282693366-115, id: 0.4372166282693366-116, id: 0.4372166282693366-117, id: 0.4372166282693366-118, id: 0.4372166282693366-119, id: 0.4372166282693366-120, id: 0.4372166282693366-121, id: 0.4372166282693366-122, id: 0.4372166282693366-123, id: 0.4372166282693366-124, id: 0.4372166282693366-125, id: 0.4372166282693366-126, id: 0.4372166282693366-127, id: 0.4372166282693366-128, id: 0.4372166282693366-129, id: 0.4372166282693366-130, id: 0.4372166282693366-131, id: 0.4372166282693366-132, id: 0.4372166282693366-133, id: 0.4372166282693366-134, id: 0.4372166282693366-135, id: 0.4372166282693366-136, id: 0.4372166282693366-137, id: 0.4372166282693366-138, id: 0.4372166282693366-139, id: 0.4372166282693366-140, id: 0.4372166282693366-141, id: 0.4372166282693366-142, id: 0.4372166282693366-143, id: 0.4372166282693366-144, id: 0.4372166282693366-145, id: 0.4372166282693366-146, id: 0.4372166282693366-147, id: 0.4372166282693366-148, id: 0.4372166282693366-149, id: 0.4372166282693366-150, id: 0.4372166282693366-151, id: 0.4372166282693366-152, id: 0.4372166282693366-153, id: 0.4372166282693366-154, id: 0.4372166282693366-155, id: 0.4372166282693366-156, id: 0.4372166282693366-157, id: 0.4372166282693366-158, id: 0.4372166282693366-159, id: 0.4372166282693366-160]",
+      "subLogs": [],
+      "duration": 46
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-81\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 41
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-81\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-82\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-82\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-83\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-83\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-84\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-84\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-85\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-85\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-86\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-86\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-87\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-87\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-88\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-88\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-89\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-89\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-90\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-90\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-91\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-91\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-92\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-92\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-93\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-93\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-94\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-94\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-95\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-95\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-96\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-96\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-97\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-97\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-98\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-98\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-99\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-99\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-100\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-100\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-101\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-101\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-102\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-102\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-103\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-103\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-104\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-104\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-105\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-105\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-106\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-106\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-107\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-107\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-108\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-108\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-109\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-109\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-110\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-110\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-111\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-111\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-112\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-112\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-113\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-113\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-114\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-114\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-115\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-115\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-116\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-116\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-117\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-117\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-118\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-118\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-119\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-119\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-120\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-120\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-121\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-121\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-122\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-122\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-123\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-123\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-124\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-124\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-125\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-125\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-126\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-126\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-127\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-127\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-128\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-128\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-129\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-129\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-130\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-130\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-131\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-131\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-132\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-132\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-133\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-133\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-134\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-134\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-135\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-135\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-136\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-136\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-137\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-137\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-138\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-138\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-139\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-139\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-140\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-140\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-141\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-141\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-142\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-142\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-143\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-143\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-144\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-144\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-145\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-145\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-146\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-146\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-147\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-147\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-148\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-148\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-149\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-149\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-150\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-150\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-151\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-151\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-152\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-152\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-153\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-153\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-154\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-154\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-155\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-155\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-156\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-156\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-157\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-157\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-158\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-158\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-159\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-159\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-160\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='airports']",
+        "{\"id\":\"0.4372166282693366-160\"}"
+      ],
+      "result": "getElementText:BOM - BLR",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//button[@data-test-id='select-button'], using=xpath}"
+      ],
+      "result": "[id: 0.4372166282693366-1, id: 0.4372166282693366-2, id: 0.4372166282693366-3, id: 0.4372166282693366-4, id: 0.4372166282693366-5, id: 0.4372166282693366-6, id: 0.4372166282693366-7, id: 0.4372166282693366-8, id: 0.4372166282693366-9, id: 0.4372166282693366-10, id: 0.4372166282693366-11, id: 0.4372166282693366-12, id: 0.4372166282693366-13, id: 0.4372166282693366-14, id: 0.4372166282693366-15, id: 0.4372166282693366-16, id: 0.4372166282693366-17, id: 0.4372166282693366-18, id: 0.4372166282693366-19, id: 0.4372166282693366-20, id: 0.4372166282693366-21, id: 0.4372166282693366-22, id: 0.4372166282693366-23, id: 0.4372166282693366-24, id: 0.4372166282693366-25, id: 0.4372166282693366-26, id: 0.4372166282693366-27, id: 0.4372166282693366-28, id: 0.4372166282693366-29, id: 0.4372166282693366-30, id: 0.4372166282693366-31, id: 0.4372166282693366-32, id: 0.4372166282693366-33, id: 0.4372166282693366-34, id: 0.4372166282693366-35, id: 0.4372166282693366-36, id: 0.4372166282693366-37, id: 0.4372166282693366-38, id: 0.4372166282693366-39, id: 0.4372166282693366-40, id: 0.4372166282693366-41, id: 0.4372166282693366-42, id: 0.4372166282693366-43, id: 0.4372166282693366-44, id: 0.4372166282693366-45, id: 0.4372166282693366-46, id: 0.4372166282693366-47, id: 0.4372166282693366-48, id: 0.4372166282693366-49, id: 0.4372166282693366-50, id: 0.4372166282693366-51, id: 0.4372166282693366-52, id: 0.4372166282693366-53, id: 0.4372166282693366-54, id: 0.4372166282693366-55, id: 0.4372166282693366-56, id: 0.4372166282693366-57, id: 0.4372166282693366-58, id: 0.4372166282693366-59, id: 0.4372166282693366-60, id: 0.4372166282693366-61, id: 0.4372166282693366-62, id: 0.4372166282693366-63, id: 0.4372166282693366-64, id: 0.4372166282693366-65, id: 0.4372166282693366-66, id: 0.4372166282693366-67, id: 0.4372166282693366-68, id: 0.4372166282693366-69, id: 0.4372166282693366-70, id: 0.4372166282693366-71, id: 0.4372166282693366-72, id: 0.4372166282693366-73, id: 0.4372166282693366-74, id: 0.4372166282693366-75, id: 0.4372166282693366-76, id: 0.4372166282693366-77, id: 0.4372166282693366-78, id: 0.4372166282693366-79, id: 0.4372166282693366-80]",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //button[@data-test-id='select-button']",
+        "{\"id\":\"0.4372166282693366-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 862
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//button[@data-test-id='select-button'], using=xpath}"
+      ],
+      "result": "[id: 0.4372166282693366-161, id: 0.4372166282693366-162, id: 0.4372166282693366-163, id: 0.4372166282693366-164, id: 0.4372166282693366-165, id: 0.4372166282693366-166, id: 0.4372166282693366-167, id: 0.4372166282693366-168, id: 0.4372166282693366-169, id: 0.4372166282693366-170, id: 0.4372166282693366-171, id: 0.4372166282693366-172, id: 0.4372166282693366-173, id: 0.4372166282693366-174, id: 0.4372166282693366-175, id: 0.4372166282693366-176, id: 0.4372166282693366-177, id: 0.4372166282693366-178, id: 0.4372166282693366-179, id: 0.4372166282693366-180, id: 0.4372166282693366-181, id: 0.4372166282693366-182, id: 0.4372166282693366-183, id: 0.4372166282693366-184, id: 0.4372166282693366-185, id: 0.4372166282693366-186, id: 0.4372166282693366-187, id: 0.4372166282693366-188, id: 0.4372166282693366-189, id: 0.4372166282693366-190, id: 0.4372166282693366-191, id: 0.4372166282693366-192, id: 0.4372166282693366-193, id: 0.4372166282693366-194, id: 0.4372166282693366-195, id: 0.4372166282693366-196, id: 0.4372166282693366-197, id: 0.4372166282693366-198, id: 0.4372166282693366-199, id: 0.4372166282693366-200, id: 0.4372166282693366-201, id: 0.4372166282693366-202, id: 0.4372166282693366-203, id: 0.4372166282693366-204, id: 0.4372166282693366-205, id: 0.4372166282693366-206, id: 0.4372166282693366-207, id: 0.4372166282693366-208, id: 0.4372166282693366-209, id: 0.4372166282693366-210, id: 0.4372166282693366-211, id: 0.4372166282693366-212, id: 0.4372166282693366-213, id: 0.4372166282693366-214, id: 0.4372166282693366-215, id: 0.4372166282693366-216, id: 0.4372166282693366-217, id: 0.4372166282693366-218, id: 0.4372166282693366-219, id: 0.4372166282693366-220, id: 0.4372166282693366-221, id: 0.4372166282693366-222, id: 0.4372166282693366-223, id: 0.4372166282693366-224, id: 0.4372166282693366-225, id: 0.4372166282693366-226, id: 0.4372166282693366-227, id: 0.4372166282693366-228, id: 0.4372166282693366-229, id: 0.4372166282693366-230, id: 0.4372166282693366-231, id: 0.4372166282693366-232, id: 0.4372166282693366-233, id: 0.4372166282693366-234, id: 0.4372166282693366-235, id: 0.4372166282693366-236, id: 0.4372166282693366-237, id: 0.4372166282693366-238, id: 0.4372166282693366-239, id: 0.4372166282693366-240]",
+      "subLogs": [],
+      "duration": 52
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//button[@data-test-id='select-button'], using=xpath}"
+      ],
+      "result": "[id: 0.4372166282693366-161, id: 0.4372166282693366-162, id: 0.4372166282693366-163, id: 0.4372166282693366-164, id: 0.4372166282693366-165, id: 0.4372166282693366-166, id: 0.4372166282693366-167, id: 0.4372166282693366-168, id: 0.4372166282693366-169, id: 0.4372166282693366-170, id: 0.4372166282693366-171, id: 0.4372166282693366-172, id: 0.4372166282693366-173, id: 0.4372166282693366-174, id: 0.4372166282693366-175, id: 0.4372166282693366-176, id: 0.4372166282693366-177, id: 0.4372166282693366-178, id: 0.4372166282693366-179, id: 0.4372166282693366-180, id: 0.4372166282693366-181, id: 0.4372166282693366-182, id: 0.4372166282693366-183, id: 0.4372166282693366-184, id: 0.4372166282693366-185, id: 0.4372166282693366-186, id: 0.4372166282693366-187, id: 0.4372166282693366-188, id: 0.4372166282693366-189, id: 0.4372166282693366-190, id: 0.4372166282693366-191, id: 0.4372166282693366-192, id: 0.4372166282693366-193, id: 0.4372166282693366-194, id: 0.4372166282693366-195, id: 0.4372166282693366-196, id: 0.4372166282693366-197, id: 0.4372166282693366-198, id: 0.4372166282693366-199, id: 0.4372166282693366-200, id: 0.4372166282693366-201, id: 0.4372166282693366-202, id: 0.4372166282693366-203, id: 0.4372166282693366-204, id: 0.4372166282693366-205, id: 0.4372166282693366-206, id: 0.4372166282693366-207, id: 0.4372166282693366-208, id: 0.4372166282693366-209, id: 0.4372166282693366-210, id: 0.4372166282693366-211, id: 0.4372166282693366-212, id: 0.4372166282693366-213, id: 0.4372166282693366-214, id: 0.4372166282693366-215, id: 0.4372166282693366-216, id: 0.4372166282693366-217, id: 0.4372166282693366-218, id: 0.4372166282693366-219, id: 0.4372166282693366-220, id: 0.4372166282693366-221, id: 0.4372166282693366-222, id: 0.4372166282693366-223, id: 0.4372166282693366-224, id: 0.4372166282693366-225, id: 0.4372166282693366-226, id: 0.4372166282693366-227, id: 0.4372166282693366-228, id: 0.4372166282693366-229, id: 0.4372166282693366-230, id: 0.4372166282693366-231, id: 0.4372166282693366-232, id: 0.4372166282693366-233, id: 0.4372166282693366-234, id: 0.4372166282693366-235, id: 0.4372166282693366-236, id: 0.4372166282693366-237, id: 0.4372166282693366-238, id: 0.4372166282693366-239, id: 0.4372166282693366-240]",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //button[@data-test-id='select-button']",
+        "{\"id\":\"0.4372166282693366-161\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 188
+    },
+    {
+      "commandName": "getCurrentWindowHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "CDwindow-(2A0325815B093B75CD3C2F349F42F64B)",
+      "subLogs": [],
+      "duration": 6
+    },
+    {
+      "commandName": "getWindowHandles",
+      "args": [
+        "{}"
+      ],
+      "result": "[CDwindow-(2A0325815B093B75CD3C2F349F42F64B), CDwindow-(2F379F511A2A1C01AD59632937D6B9D9)]",
+      "subLogs": [],
+      "duration": 6
+    },
+    {
+      "commandName": "switchToWindow",
+      "args": [
+        "{name=CDwindow-(2A0325815B093B75CD3C2F349F42F64B)}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 35
+    },
+    {
+      "commandName": "switchToWindow",
+      "args": [
+        "{name=CDwindow-(2F379F511A2A1C01AD59632937D6B9D9)}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//h1[contains(text(),'Review your trip')], using=xpath}"
+      ],
+      "result": "[id: 0.06983170180051634-1]",
+      "subLogs": [],
+      "duration": 5706
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[contains(@id, 'departure-airport-automation-label')], using=xpath}"
+      ],
+      "result": "[id: 0.06983170180051634-2, id: 0.06983170180051634-3]",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[contains(@id, 'departure-airport-automation-label')]",
+        "{\"id\":\"0.06983170180051634-2\"}"
+      ],
+      "result": "getElementText:BOM",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[contains(@id, 'departure-airport-automation-label')], using=xpath}"
+      ],
+      "result": "[id: 0.06983170180051634-2, id: 0.06983170180051634-3]",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[contains(@id, 'departure-airport-automation-label')]",
+        "{\"id\":\"0.06983170180051634-3\"}"
+      ],
+      "result": "getElementText:BLR",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[contains(@id, 'arrival-airportcode-automation-label')], using=xpath}"
+      ],
+      "result": "[id: 0.06983170180051634-4, id: 0.06983170180051634-5]",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[contains(@id, 'arrival-airportcode-automation-label')]",
+        "{\"id\":\"0.06983170180051634-4\"}"
+      ],
+      "result": "getElementText:BLR",
+      "subLogs": [],
+      "duration": 41
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[contains(@id, 'departure-airport-automation-label')], using=xpath}"
+      ],
+      "result": "[id: 0.06983170180051634-2, id: 0.06983170180051634-3]",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[contains(@id, 'departure-airport-automation-label')]",
+        "{\"id\":\"0.06983170180051634-3\"}"
+      ],
+      "result": "getElementText:BLR",
+      "subLogs": [],
+      "duration": 11
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Expected Result is BOM - BLR and actual result is BOM - BLR",
+      "type": "Pass",
+      "screenshot": "../img/flightSearch_CSV_Test_1qh0eu66z7rjc3428.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "\nExpected: \"BOM\"\n     Actual: was \"BOM\"",
+      "type": "Pass",
+      "screenshot": "../img/flightSearch_CSV_Test_1l28juw4sj5383429.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "\nExpected: \"BLR\"\n     Actual: was \"BLR\"",
+      "type": "Pass",
+      "screenshot": "../img/flightSearch_CSV_Test_7yqjervrmgqm3430.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "\nExpected: \"BOM\"\n     Actual: was \"BLR\"",
+      "type": "Fail",
+      "screenshot": "../img/flightSearch_CSV_Test_efcth3bjhp9s3431.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

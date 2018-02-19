@@ -1,0 +1,10 @@
+14:04:14 scenario.file.loc[Ljava.lang.String;@133e16fd
+14:04:14 loading BDD file: scenarios/FlightSearchScenario.bdd
+14:04:14 total test found: 1
+14:04:14 
+
+Executing scenario: Search Flight - 
+14:04:14 pkg: com.qmetry.qaf.automation.step
+14:04:15 pkg: com.qaf_assignments
+14:04:15 Found duplicate step to load [] with [lower] prority then []
+14:04:15 Invoking Teststep: Given Open Tourism website

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [QAS Demo]">
+  <test name="java test(failed)">
+    <classes>
+      <class name="com.qaf_assignments.tests.FlightSearchTest">
+        <methods>
+          <include name="afterSuit"/>
+          <include name="setupMethod"/>
+          <include name="test1"/>
+          <include name="setupSuit"/>
+          <include name="setupTest"/>
+          <include name="afterClass"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.qaf_assignments.tests.FlightSearchTest -->
+    </classes>
+  </test> <!-- java test(failed) -->
+</suite> <!-- Failed suite [QAS Demo] -->

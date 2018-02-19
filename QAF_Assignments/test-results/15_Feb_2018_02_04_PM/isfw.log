@@ -1,0 +1,183 @@
+[main] 14:04:14,419 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFAnnotationTransformer2] QAFTestNGListener registered!...
+[main] 14:04:14,434 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] QAFTestNGListener registered!...
+[main] 14:04:14,434 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] QAFTestNGListener registered!...
+[main] 14:04:14,434 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] QAFTestNGListener registered!...
+[main] 14:04:14,434 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] QAFTestNGListener registered!...
+[main] 14:04:14,587 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] ISFW build info: {qaf-Type=core, qaf-Revision=12-RC3, qaf-Version=2.1, qaf-Build-Time=06-Aug-2017 11:49:43}
+[main] 14:04:14,613 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] Resource dir: D:\QAS_Workspace\QAF_Assignments\resources. Found property files to load: 4
+[main] 14:04:14,644 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding.pkg
+[main] 14:04:14,644 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding
+[main] 14:04:14,644 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.separator
+[main] 14:04:14,644 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.country
+[main] 14:04:14,644 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.script
+[main] 14:04:14,644 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.dir
+[main] 14:04:14,644 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.variant
+[main] 14:04:14,644 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.home
+[main] 14:04:14,644 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.timezone
+[main] 14:04:14,644 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.name
+[main] 14:04:14,644 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.language
+[main] 14:04:14,644 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.relative.path
+[main] 14:04:14,644 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.dir
+[main] 14:04:14,644 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.arch
+[main] 14:04:14,644 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.name
+[main] 14:04:14,644 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.version
+[main] 14:04:14,644 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:line.separator
+[main] 14:04:14,644 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:log4j.configuration
+[main] 14:04:14,644 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.dir
+[main] 14:04:14,644 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:awt.toolkit
+[main] 14:04:14,644 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:outputDir
+[main] 14:04:14,644 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] Resource dir: D:\QAS_Workspace\QAF_Assignments\resources. Found property files to load: 1
+[main] 14:04:14,663 DEBUG [org.apache.commons.configuration.ConfigurationUtils] ConfigurationUtils.locate(): base is null, name is null
+[main] 14:04:14,672 DEBUG [org.apache.commons.configuration.ConfigurationUtils] ConfigurationUtils.locate(): base is D:\QAS_Workspace\QAF_Assignments\resources, name is FlightData.xml
+[main] 14:04:14,672 DEBUG [org.apache.commons.configuration.DefaultFileSystem] Could not locate file FlightData.xml at D:\QAS_Workspace\QAF_Assignments\resources: unknown protocol: d
+[main] 14:04:14,672 DEBUG [org.apache.commons.configuration.ConfigurationUtils] Loading configuration from the path D:\QAS_Workspace\QAF_Assignments\resources\FlightData.xml
+[main] 14:04:14,672 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding.pkg
+[main] 14:04:14,672 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding
+[main] 14:04:14,672 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.separator
+[main] 14:04:14,672 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.country
+[main] 14:04:14,672 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.script
+[main] 14:04:14,672 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.dir
+[main] 14:04:14,672 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.variant
+[main] 14:04:14,672 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.home
+[main] 14:04:14,672 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.timezone
+[main] 14:04:14,672 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.name
+[main] 14:04:14,672 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.language
+[main] 14:04:14,672 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.relative.path
+[main] 14:04:14,672 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.dir
+[main] 14:04:14,672 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.arch
+[main] 14:04:14,672 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.name
+[main] 14:04:14,672 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.version
+[main] 14:04:14,672 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:line.separator
+[main] 14:04:14,672 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:log4j.configuration
+[main] 14:04:14,672 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.dir
+[main] 14:04:14,672 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:awt.toolkit
+[main] 14:04:14,672 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:outputDir
+[main] 14:04:14,904 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupSuit
+[main] 14:04:14,904 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupSuit - com.qmetry.qaf.automation.ui is test:false
+[main] 14:04:14,904 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 14:04:14,904 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupTest
+[main] 14:04:14,919 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupTest - com.qmetry.qaf.automation.ui is test:false
+[main] 14:04:14,919 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 14:04:14,919 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] Method Order interceptor called
+[main] 14:04:14,919 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setup
+[main] 14:04:14,919 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setup - com.qmetry.qaf.automation.ui is test:false
+[main] 14:04:14,919 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 14:04:14,935 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupMethod
+[main] 14:04:14,935 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupMethod - com.qmetry.qaf.automation.ui is test:false
+[main] 14:04:14,935 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 14:04:14,935 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onTestStart: start
+[main] 14:04:14,935 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: Search Flight
+[main] 14:04:15,220 INFO  [com.qmetry.qaf.automation.core.QAFTestBase] Initializing Driver...browser_str:chromeDriver,base_url:https://www.orbitz.com/,sel_server:localhost,port:4444
+[main] 14:04:15,236 INFO  [com.qmetry.qaf.automation.ui.UiDriverFactory] Driver: chromeDriver
+[main] 14:04:15,305 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] property [webdriver.chrome.driver] value [resources/driver/chromedriver.exe] ignored! It is overriden with System provided value: [D:\QAS_Workspace\QAF_Assignments\resources\driver\chromedriver.exe]
+[main] 14:04:15,321 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] property [webdriver.chrome.driver] value [resources/driver/chromedriver.exe] ignored! It is overriden with System provided value: [D:\QAS_Workspace\QAF_Assignments\resources\driver\chromedriver.exe]
+[Forwarding newSession on session null to remote] 14:04:16,358 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding newSession on session null to remote] 14:04:16,358 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding newSession on session null to remote] 14:04:16,358 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:24141][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[Forwarding newSession on session null to remote] 14:04:16,380 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:24141][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding newSession on session null to remote] 14:04:16,380 DEBUG [org.apache.http.impl.execchain.MainClientExec] Opening connection {}->http://localhost:24141
+[Forwarding newSession on session null to remote] 14:04:16,380 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connecting to localhost/127.0.0.1:24141
+[Forwarding newSession on session null to remote] 14:04:16,380 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connection established 127.0.0.1:59194<->127.0.0.1:24141
+[Forwarding newSession on session null to remote] 14:04:16,380 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding newSession on session null to remote] 14:04:16,380 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /session HTTP/1.1
+[Forwarding newSession on session null to remote] 14:04:16,380 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding newSession on session null to remote] 14:04:16,380 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding newSession on session null to remote] 14:04:16,380 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /session HTTP/1.1
+[Forwarding newSession on session null to remote] 14:04:16,380 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding newSession on session null to remote] 14:04:16,380 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 153
+[Forwarding newSession on session null to remote] 14:04:16,380 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:24141
+[Forwarding newSession on session null to remote] 14:04:16,380 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding newSession on session null to remote] 14:04:16,380 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_152)
+[Forwarding newSession on session null to remote] 14:04:16,380 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding newSession on session null to remote] 14:04:16,380 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+[Forwarding newSession on session null to remote] 14:04:16,380 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding newSession on session null to remote] 14:04:16,380 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 153[\r][\n]"
+[Forwarding newSession on session null to remote] 14:04:16,380 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:24141[\r][\n]"
+[Forwarding newSession on session null to remote] 14:04:16,380 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding newSession on session null to remote] 14:04:16,380 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_152)[\r][\n]"
+[Forwarding newSession on session null to remote] 14:04:16,380 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding newSession on session null to remote] 14:04:16,380 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding newSession on session null to remote] 14:04:16,380 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"desiredCapabilities":{"browserName":"chrome","takesScreenshot":true,"javascriptEnabled":true,"version":"","platform":"ANY","cssSelectorsEnabled":true}}"
+[Forwarding newSession on session null to remote] 14:04:18,072 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding newSession on session null to remote] 14:04:18,087 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length:807[\r][\n]"
+[Forwarding newSession on session null to remote] 14:04:18,087 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding newSession on session null to remote] 14:04:18,087 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection:close[\r][\n]"
+[Forwarding newSession on session null to remote] 14:04:18,087 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding newSession on session null to remote] 14:04:18,087 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"sessionId":"7e01a42e7d35e566ed6a86ddf9c8b7e4","status":0,"value":{"acceptSslCerts":true,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1)","userDataDir":"C:\\Users\\PRIYAN~1.PAT\\AppData\\Local\\Temp\\scoped_dir5732_12676"},"cssSelectorsEnabled":true,"databaseEnabled":false,"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Windows NT","rotatable":false,"setWindowRect":true,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"64.0.3282.167","webStorageEnabled":true}}"
+[Forwarding newSession on session null to remote] 14:04:18,087 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding newSession on session null to remote] 14:04:18,103 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length:807
+[Forwarding newSession on session null to remote] 14:04:18,103 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[Forwarding newSession on session null to remote] 14:04:18,103 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection:close
+[Forwarding newSession on session null to remote] 14:04:18,126 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: Close connection
+[Forwarding newSession on session null to remote] 14:04:18,126 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection discarded
+[Forwarding newSession on session null to remote] 14:04:18,126 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:24141][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[main] 14:04:18,134 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing get parameters: {"url":"https://www.orbitz.com/"}
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,134 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,134 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,134 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:24141][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,134 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 1][route: {}->http://localhost:24141][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,134 DEBUG [org.apache.http.impl.execchain.MainClientExec] Opening connection {}->http://localhost:24141
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,134 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connecting to localhost/127.0.0.1:24141
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,134 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connection established 127.0.0.1:59204<->127.0.0.1:24141
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,134 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-1: set socket timeout to 10800000
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,134 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /session/7e01a42e7d35e566ed6a86ddf9c8b7e4/url HTTP/1.1
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,134 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,134 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,134 DEBUG [org.apache.http.headers] http-outgoing-1 >> POST /session/7e01a42e7d35e566ed6a86ddf9c8b7e4/url HTTP/1.1
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,134 DEBUG [org.apache.http.headers] http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,134 DEBUG [org.apache.http.headers] http-outgoing-1 >> Content-Length: 33
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,134 DEBUG [org.apache.http.headers] http-outgoing-1 >> Host: localhost:24141
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,134 DEBUG [org.apache.http.headers] http-outgoing-1 >> Connection: Keep-Alive
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,134 DEBUG [org.apache.http.headers] http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_152)
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,134 DEBUG [org.apache.http.headers] http-outgoing-1 >> Accept-Encoding: gzip,deflate
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,134 DEBUG [org.apache.http.wire] http-outgoing-1 >> "POST /session/7e01a42e7d35e566ed6a86ddf9c8b7e4/url HTTP/1.1[\r][\n]"
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,134 DEBUG [org.apache.http.wire] http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,134 DEBUG [org.apache.http.wire] http-outgoing-1 >> "Content-Length: 33[\r][\n]"
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,134 DEBUG [org.apache.http.wire] http-outgoing-1 >> "Host: localhost:24141[\r][\n]"
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,134 DEBUG [org.apache.http.wire] http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,134 DEBUG [org.apache.http.wire] http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_152)[\r][\n]"
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,134 DEBUG [org.apache.http.wire] http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,134 DEBUG [org.apache.http.wire] http-outgoing-1 >> "[\r][\n]"
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,134 DEBUG [org.apache.http.wire] http-outgoing-1 >> "{"url":"https://www.orbitz.com/"}"
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,226 DEBUG [org.apache.http.wire] http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,226 DEBUG [org.apache.http.wire] http-outgoing-1 << "Content-Length:72[\r][\n]"
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,226 DEBUG [org.apache.http.wire] http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,226 DEBUG [org.apache.http.wire] http-outgoing-1 << "Connection:close[\r][\n]"
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,226 DEBUG [org.apache.http.wire] http-outgoing-1 << "[\r][\n]"
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,226 DEBUG [org.apache.http.wire] http-outgoing-1 << "{"sessionId":"7e01a42e7d35e566ed6a86ddf9c8b7e4","status":0,"value":null}"
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,226 DEBUG [org.apache.http.headers] http-outgoing-1 << HTTP/1.1 200 OK
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,226 DEBUG [org.apache.http.headers] http-outgoing-1 << Content-Length:72
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,226 DEBUG [org.apache.http.headers] http-outgoing-1 << Content-Type:application/json; charset=utf-8
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,226 DEBUG [org.apache.http.headers] http-outgoing-1 << Connection:close
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,226 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-1: Close connection
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,226 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection discarded
+[Forwarding get on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,226 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 1][route: {}->http://localhost:24141][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[main] 14:04:18,226 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: get[ param-1: {url=https://www.orbitz.com/}] Result: null
+[main] 14:04:18,273 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing maximizeWindow parameters: {"windowHandle":"current"}
+[Forwarding maximizeWindow on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,273 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding maximizeWindow on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,273 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding maximizeWindow on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,273 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:24141][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[Forwarding maximizeWindow on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,273 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 2][route: {}->http://localhost:24141][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding maximizeWindow on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,273 DEBUG [org.apache.http.impl.execchain.MainClientExec] Opening connection {}->http://localhost:24141
+[Forwarding maximizeWindow on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,273 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connecting to localhost/127.0.0.1:24141
+[Forwarding maximizeWindow on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,273 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connection established 127.0.0.1:59205<->127.0.0.1:24141
+[Forwarding maximizeWindow on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,273 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-2: set socket timeout to 10800000
+[Forwarding maximizeWindow on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,273 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /session/7e01a42e7d35e566ed6a86ddf9c8b7e4/window/current/maximize HTTP/1.1
+[Forwarding maximizeWindow on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,273 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding maximizeWindow on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,273 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding maximizeWindow on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,273 DEBUG [org.apache.http.headers] http-outgoing-2 >> POST /session/7e01a42e7d35e566ed6a86ddf9c8b7e4/window/current/maximize HTTP/1.1
+[Forwarding maximizeWindow on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,273 DEBUG [org.apache.http.headers] http-outgoing-2 >> Content-Type: application/json; charset=utf-8
+[Forwarding maximizeWindow on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,273 DEBUG [org.apache.http.headers] http-outgoing-2 >> Content-Length: 26
+[Forwarding maximizeWindow on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,273 DEBUG [org.apache.http.headers] http-outgoing-2 >> Host: localhost:24141
+[Forwarding maximizeWindow on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,273 DEBUG [org.apache.http.headers] http-outgoing-2 >> Connection: Keep-Alive
+[Forwarding maximizeWindow on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,273 DEBUG [org.apache.http.headers] http-outgoing-2 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_152)
+[Forwarding maximizeWindow on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,273 DEBUG [org.apache.http.headers] http-outgoing-2 >> Accept-Encoding: gzip,deflate
+[Forwarding maximizeWindow on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,273 DEBUG [org.apache.http.wire] http-outgoing-2 >> "POST /session/7e01a42e7d35e566ed6a86ddf9c8b7e4/window/current/maximize HTTP/1.1[\r][\n]"
+[Forwarding maximizeWindow on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,273 DEBUG [org.apache.http.wire] http-outgoing-2 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding maximizeWindow on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,273 DEBUG [org.apache.http.wire] http-outgoing-2 >> "Content-Length: 26[\r][\n]"
+[Forwarding maximizeWindow on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,273 DEBUG [org.apache.http.wire] http-outgoing-2 >> "Host: localhost:24141[\r][\n]"
+[Forwarding maximizeWindow on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,273 DEBUG [org.apache.http.wire] http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding maximizeWindow on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,273 DEBUG [org.apache.http.wire] http-outgoing-2 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_152)[\r][\n]"
+[Forwarding maximizeWindow on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,273 DEBUG [org.apache.http.wire] http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding maximizeWindow on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,288 DEBUG [org.apache.http.wire] http-outgoing-2 >> "[\r][\n]"
+[Forwarding maximizeWindow on session 7e01a42e7d35e566ed6a86ddf9c8b7e4 to remote] 14:04:18,288 DEBUG [org.apache.http.wire] http-outgoing-2 >> "{"windowHandle":"current"}"

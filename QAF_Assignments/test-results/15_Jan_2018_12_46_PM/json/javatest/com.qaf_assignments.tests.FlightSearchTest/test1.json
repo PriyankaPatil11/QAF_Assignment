@@ -1,0 +1,222 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=https://www.orbitz.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 12172
+    },
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1224
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=primary-header-flight, using=id}"
+      ],
+      "result": "id: 0.16827744501090813-1",
+      "subLogs": [],
+      "duration": 293
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: primary-header-flight",
+        "{\"id\":\"0.16827744501090813-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 475
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=flight-origin, using=id}"
+      ],
+      "result": "id: 0.16827744501090813-2",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.id: flight-origin",
+        "{\"id\":\"0.16827744501090813-2\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 125
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=flight-origin, using=id}"
+      ],
+      "result": "id: 0.16827744501090813-2",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.id: flight-origin",
+        "{\"id\":\"0.16827744501090813-2\",\"value\":[\"\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 255
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=flight-destination, using=id}"
+      ],
+      "result": "id: 0.16827744501090813-3",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.id: flight-destination",
+        "{\"id\":\"0.16827744501090813-3\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 49
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=flight-destination, using=id}"
+      ],
+      "result": "id: 0.16827744501090813-3",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.id: flight-destination",
+        "{\"id\":\"0.16827744501090813-3\",\"value\":[\"\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 45
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=flight-departing, using=id}"
+      ],
+      "result": "id: 0.16827744501090813-4",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.id: flight-departing",
+        "{\"id\":\"0.16827744501090813-4\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 83
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=flight-departing, using=id}"
+      ],
+      "result": "id: 0.16827744501090813-4",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.id: flight-departing",
+        "{\"id\":\"0.16827744501090813-4\",\"value\":[\"\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 39
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=flight-returning, using=id}"
+      ],
+      "result": "id: 0.16827744501090813-5",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.id: flight-returning",
+        "{\"id\":\"0.16827744501090813-5\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 55
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=flight-returning, using=id}"
+      ],
+      "result": "id: 0.16827744501090813-5",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.id: flight-returning",
+        "{\"id\":\"0.16827744501090813-5\",\"value\":[\"\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=search-button, using=id}"
+      ],
+      "result": "id: 0.16827744501090813-6",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: search-button",
+        "{\"id\":\"0.16827744501090813-6\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 215
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@data-test-id='airports'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 319
+    }
+  ],
+  "checkPoints": []
+}

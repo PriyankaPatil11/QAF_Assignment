@@ -1,0 +1,25 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Search flight for different destinations",
+        "groups": [
+          "P1"
+        ],
+        "key": "Flight.Details",
+        "lineNo": 2,
+        "name": "Search Flight",
+        "referece": "scenarios/FlightSearchScenario.bdd",
+        "sign": "scenarios.FlightSearchScenario.bdd.Search Flight( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1516180266959,
+      "duration": 0,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

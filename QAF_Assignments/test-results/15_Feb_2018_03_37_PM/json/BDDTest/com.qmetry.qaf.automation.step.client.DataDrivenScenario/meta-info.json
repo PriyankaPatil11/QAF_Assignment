@@ -1,0 +1,63 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "Source": "Mumbai, India (BOM-Chhatrapati Shivaji Intl.)",
+          "Destination": "Bengaluru, India (BLR-Kempegowda Intl.)",
+          "DepartureDate": "02/19/2018",
+          "ReturnDate": "03/08/2018",
+          "expected": "BOM - BLR"
+        }
+      ],
+      "metaData": {
+        "description": "Search flight for different destinations",
+        "groups": [
+          "P1"
+        ],
+        "key": "flight.details",
+        "lineNo": 2.0,
+        "name": "Search Flight",
+        "referece": "scenarios/FlightSearchScenario.bdd",
+        "sign": "scenarios.FlightSearchScenario.bdd.Search Flight( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1518689281379,
+      "duration": 323,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "Source": "Pune, India (PNQ-Lohegaon)",
+          "Destination": "Delhi, India (DEL-Indira Gandhi Intl.)",
+          "DepartureDate": "02/19/2018",
+          "ReturnDate": "03/08/2018",
+          "expected": "PNQ - DEL"
+        }
+      ],
+      "metaData": {
+        "description": "Search flight for different destinations",
+        "groups": [
+          "P1"
+        ],
+        "key": "flight.details",
+        "lineNo": 2,
+        "name": "Search Flight",
+        "referece": "scenarios/FlightSearchScenario.bdd",
+        "resultFileName": "Search FlightnciAghPkWX",
+        "sign": "scenarios.FlightSearchScenario.bdd.Search Flight( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1518689281750,
+      "duration": 56,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

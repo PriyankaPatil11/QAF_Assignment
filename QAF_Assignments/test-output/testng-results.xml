@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" ignored="1" total="3" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="warn"><span class="warn-label">W </span>get'\' :: Not Found.</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="warn"><span class="warn-label">W </span>get'\' :: Not Found.</div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="QAF_Assignments.scenarios.FlightSearchScenario.bdd" duration-ms="481" started-at="2018-02-15T10:08:01Z" finished-at="2018-02-15T10:08:01Z">
+    <groups>
+      <group name="P1">
+        <method signature="scenarios.FlightSearchScenario.bdd.Search Flight( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" name="Search Flight" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
+      </group> <!-- P1 -->
+    </groups>
+    <test name="BDD Test" duration-ms="481" started-at="2018-02-15T10:08:01Z" finished-at="2018-02-15T10:08:01Z">
+      <class name="com.qmetry.qaf.automation.step.client.DataDrivenScenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Search Flight" name="setupSuit" is-config="true" duration-ms="28" started-at="2018-02-15T15:38:01Z" finished-at="2018-02-15T15:38:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@20d28811]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Search Flight" name="setupTest" is-config="true" duration-ms="3" started-at="2018-02-15T15:38:01Z" finished-at="2018-02-15T15:38:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@20d28811]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Search Flight" name="setup" is-config="true" duration-ms="1" started-at="2018-02-15T15:38:01Z" finished-at="2018-02-15T15:38:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@20d28811]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Search Flight" name="setupMethod" is-config="true" duration-ms="1" started-at="2018-02-15T15:38:01Z" finished-at="2018-02-15T15:38:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@20d28811]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method name="Search Flight" test-instance-name="Search Flight" signature="Search Flight( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" status="SKIP" duration-ms="323" finished-at="2018-02-15T15:38:01Z" started-at="2018-02-15T15:38:01Z" data-provider="scenariodp" description="Search flight for different destinations">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Source=Mumbai, India (BOM-Chhatrapati Shivaji Intl.), Destination=Bengaluru, India (BLR-Kempegowda Intl.), DepartureDate=02/19/2018, ReturnDate=03/08/2018, expected=BOM - BLR}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.qmetry.qaf.automation.step.StepNotFoundException">
+            <message>
+              <![CDATA[get'\'@scenarios/FlightSearchScenario.bdd#4 TestStep implementation not found. 
+ Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.qmetry.qaf.automation.step.StepNotFoundException: get'\'@scenarios/FlightSearchScenario.bdd#4 TestStep implementation not found. 
+ Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.
+	at .get'\'(scenarios/FlightSearchScenario.bdd:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.qmetry.qaf.automation.step.StepNotFoundException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="warn"><span class="warn-label">W </span>get'\' :: Not Found.</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Search Flight -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Search Flight" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-02-15T15:38:01Z" finished-at="2018-02-15T15:38:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@20d28811]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Search Flight status=SKIP method=scenarios.FlightSearchScenario.bdd.Search Flight( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="warn"><span class="warn-label">W </span>get'\' :: Not Found.</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Search Flight" name="setupMethod" is-config="true" duration-ms="3" started-at="2018-02-15T15:38:01Z" finished-at="2018-02-15T15:38:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@20d28811]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method name="Search Flight" test-instance-name="Search Flight" signature="Search Flight( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" status="SKIP" duration-ms="56" finished-at="2018-02-15T15:38:01Z" started-at="2018-02-15T15:38:01Z" data-provider="scenariodp" description="Search flight for different destinations">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Source=Pune, India (PNQ-Lohegaon), Destination=Delhi, India (DEL-Indira Gandhi Intl.), DepartureDate=02/19/2018, ReturnDate=03/08/2018, expected=PNQ - DEL}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.qmetry.qaf.automation.step.StepNotFoundException">
+            <message>
+              <![CDATA[get'\'@scenarios/FlightSearchScenario.bdd#4 TestStep implementation not found. 
+ Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.qmetry.qaf.automation.step.StepNotFoundException: get'\'@scenarios/FlightSearchScenario.bdd#4 TestStep implementation not found. 
+ Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.
+	at .get'\'(scenarios/FlightSearchScenario.bdd:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.qmetry.qaf.automation.step.StepNotFoundException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="warn"><span class="warn-label">W </span>get'\' :: Not Found.</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Search Flight -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Search Flight" name="afterMethod" is-config="true" duration-ms="2" started-at="2018-02-15T15:38:01Z" finished-at="2018-02-15T15:38:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@20d28811]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Search Flight status=SKIP method=scenarios.FlightSearchScenario.bdd.Search Flight( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="warn"><span class="warn-label">W </span>get'\' :: Not Found.</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Search Flight" name="afterClass" is-config="true" duration-ms="1" started-at="2018-02-15T15:38:01Z" finished-at="2018-02-15T15:38:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@20d28811]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Search Flight" name="afterTest" is-config="true" duration-ms="1" started-at="2018-02-15T15:38:01Z" finished-at="2018-02-15T15:38:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@20d28811]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Search Flight" name="afterSuit" is-config="true" duration-ms="3" started-at="2018-02-15T15:38:01Z" finished-at="2018-02-15T15:38:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@20d28811]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.DataDrivenScenario -->
+    </test> <!-- BDD Test -->
+  </suite> <!-- QAF_Assignments.scenarios.FlightSearchScenario.bdd -->
+</testng-results>

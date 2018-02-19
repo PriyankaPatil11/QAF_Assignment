@@ -1,0 +1,51 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "flightSearchTest",
+        "sign": "FlightSearchTest.flightSearchTest()[pri:0, instance:com.qaf_assignments.tests.FlightSearchTest@2473b9ce]"
+      },
+      "dependsOn": [],
+      "startTime": 1516193410876,
+      "duration": 53957,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "flightSearchTest",
+        "resultFileName": "flightSearchTesthpQHwBQQoP",
+        "sign": "FlightSearchTest.flightSearchTest()[pri:0, instance:com.qaf_assignments.tests.FlightSearchTest@2473b9ce]"
+      },
+      "dependsOn": [],
+      "startTime": 1516193480064,
+      "duration": 29782,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "flightSearchTest",
+        "resultFileName": "flightSearchTestaVguhMoqqX",
+        "sign": "FlightSearchTest.flightSearchTest()[pri:0, instance:com.qaf_assignments.tests.FlightSearchTest@2473b9ce]"
+      },
+      "dependsOn": [],
+      "startTime": 1516193524682,
+      "duration": 43626,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+
+SCENARIO: Search Flight
+META-DATA: {"description":"Search flight for different destinations","groups":["P1"],"key":"flight.details"}
+	get'\'
+END
+

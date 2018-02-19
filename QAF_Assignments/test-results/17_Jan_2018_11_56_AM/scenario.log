@@ -1,0 +1,71 @@
+11:56:21 scenario.file.loc[Ljava.lang.String;@1e4a7dd4
+11:56:21 loading BDD file: scenarios/FlightSearchScenario.bdd
+11:56:21 total test found: 1
+11:56:22 
+
+Executing scenario: FlightSearchTest - Search a flight from tourism site
+11:56:22 pkg: com.qmetry.qaf.automation.step
+11:56:23 pkg: com.qaf_assignments
+11:56:23 Found duplicate step to load [] with [lower] prority then []
+11:56:23 Invoking Teststep: Given Open Tourism website
+11:57:04 Completed Teststep: Given Open Tourism website
+11:57:04 Invoking Teststep: When Navigate on Flight tab
+11:57:04 Completed Teststep: When Navigate on Flight tab
+11:57:04 Invoking Teststep: And Enter Flying from as 'Mumbai, India (BOM-Chhatrapati Shivaji Intl.)' with arguments: [Mumbai, India (BOM-Chhatrapati Shivaji Intl.)]
+11:57:05 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Mumbai, India (BOM-Chhatrapati Shivaji Intl.), txtbox.flyingFrom.flightsearch]
+11:57:06 Completed Teststep: sendKeys {text} into {loc} with arguments: [Mumbai, India (BOM-Chhatrapati Shivaji Intl.), txtbox.flyingFrom.flightsearch]
+11:57:06 Completed Teststep: And Enter Flying from as 'Mumbai, India (BOM-Chhatrapati Shivaji Intl.)' with arguments: [Mumbai, India (BOM-Chhatrapati Shivaji Intl.)]
+11:57:06 Invoking Teststep: Then Enter Flying To as 'Bengaluru, India (BLR-Kempegowda Intl.)' with arguments: [Bengaluru, India (BLR-Kempegowda Intl.)]
+11:57:06 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Bengaluru, India (BLR-Kempegowda Intl.), txtbox.flyingTo.flightsearch]
+11:57:07 Completed Teststep: sendKeys {text} into {loc} with arguments: [Bengaluru, India (BLR-Kempegowda Intl.), txtbox.flyingTo.flightsearch]
+11:57:07 Completed Teststep: Then Enter Flying To as 'Bengaluru, India (BLR-Kempegowda Intl.)' with arguments: [Bengaluru, India (BLR-Kempegowda Intl.)]
+11:57:07 Invoking Teststep: When Enter Departure date as '01/19/2018' with arguments: [01/19/2018]
+11:57:07 Invoking Teststep: sendKeys {text} into {loc} with arguments: [01/19/2018, txtbox.departingDate.flightsearch]
+11:57:07 Completed Teststep: sendKeys {text} into {loc} with arguments: [01/19/2018, txtbox.departingDate.flightsearch]
+11:57:07 Completed Teststep: When Enter Departure date as '01/19/2018' with arguments: [01/19/2018]
+11:57:07 Invoking Teststep: And Enter Return date as '02/08/2018' with arguments: [02/08/2018]
+11:57:07 Invoking Teststep: sendKeys {text} into {loc} with arguments: [02/08/2018, txtbox.returningDate.flightsearch]
+11:57:07 Completed Teststep: sendKeys {text} into {loc} with arguments: [02/08/2018, txtbox.returningDate.flightsearch]
+11:57:07 Completed Teststep: And Enter Return date as '02/08/2018' with arguments: [02/08/2018]
+11:57:07 Invoking Teststep: Then click on Search button
+11:57:16 Completed Teststep: Then click on Search button
+11:57:16 Invoking Teststep: Then Validate the result 'BOM - BLR' with arguments: [BOM - BLR]
+11:57:16 Failure Teststep: Then Validate the result 'BOM - BLR' with arguments: [BOM - BLR]
+java.lang.NullPointerException
+	at com.qaf_assignments.steps.SearchResultSteps.validateSearchResult(SearchResultSteps.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:781)
+	at org.testng.TestRunner.run(TestRunner.java:635)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+11:57:16 Completed Teststep: Then Validate the result 'BOM - BLR' with arguments: [BOM - BLR]
+11:57:16 Competed scenario: FlightSearchTest with status FAILURE

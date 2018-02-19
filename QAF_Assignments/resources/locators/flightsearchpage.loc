@@ -1,0 +1,5 @@
+txtbox.flyingFrom.flightsearch = {\"locator\":\"id=flight-origin\",\"desc\":\"Fyling from text box\"}
+txtbox.flyingTo.flightsearch = {\"locator\":\"id=flight-destination\",\"desc\":\"Flying To text box\"}
+txtbox.departingDate.flightsearch = {\"locator\":\"id=flight-departing\",\"desc\":\"depature Date text box\"}
+txtbox.returningDate.flightsearch = {\"locator\":\"id=flight-returning\",\"desc\":\"Reture Date text box\"}
+btn.search.flightsearch = {\"locator\":\"id=search-button\",\"desc\":\"Reture Date text box\"}

@@ -1,0 +1,101 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jan 18 18:05:04 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>69 seconds (69135 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qaf_assignments.tests.FlightSearch_CSV_Test.flightSearch_CSV_Test()'><b>flightSearch_CSV_Test</b><br>Test class: com.qaf_assignments.tests.FlightSearch_CSV_Test<br>Test method: Search flight with specific details<br>Parameters: {DepartingFrom=Mumbai India (BOM-Chhatrapati Shivaji Intl.), Destination=BLR, DepartingTo=Bengaluru India (BLR-Kempegowda Intl.), ReturningDate=02/18/2018, expctedSourceDestination=BOM - BLR, DepartingDate=01/19/2018, Source=BOM}<br/>
+<a href="#Output-252738640" onClick='toggleBox("Output-252738640", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-252738640" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-252738640">
+<div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Result is BOM - BLR and actual result is BOM - BLR <a href="../img/flightSearch_CSV_Test_al71s97adzku37273.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: "BOM"
+     Actual: was "BOM" <a href="../img/flightSearch_CSV_Test_gcwhpg1fcvoy37274.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: "BLR"
+     Actual: was "BLR" <a href="../img/flightSearch_CSV_Test_1cadzsjxbqbte37275.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: "BOM"
+     Actual: was "BOM" <a href="../img/flightSearch_CSV_Test_10h158wpini5v37276.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: "Jan 19 2018"
+     Actual: was "Jan 19 2018" <a href="../img/flightSearch_CSV_Test_3g0ntoomc89p37277.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: "Feb 18 2018"
+     Actual: was "Feb 18 2018" <a href="../img/flightSearch_CSV_Test_fn4bqerj2r6z37278.png" target="_blank">[View Screenshot]</a> </div></div><br/>
+</div>
+</td>
+<td></td>
+<td>68</td>
+<td>com.qaf_assignments.tests.FlightSearch_CSV_Test@46238e3f</td></tr>
+</table><p>
+</body>
+</html>

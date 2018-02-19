@@ -1,0 +1,19 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "test1",
+        "sign": "FlightSearchTest.test1()[pri:0, instance:com.qaf_assignments.tests.FlightSearchTest@140e5a13]"
+      },
+      "dependsOn": [],
+      "startTime": 1516021220367,
+      "duration": 45464,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

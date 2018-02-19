@@ -1,0 +1,13 @@
+{
+  "name": "QAF_Assignments.scenarios.FlightSearchScenario.bdd",
+  "status": "fail",
+  "tests": [
+    "BDDTest"
+  ],
+  "total": 2,
+  "pass": 1,
+  "fail": 1,
+  "skip": 0,
+  "startTime": 1516190120771,
+  "endTime": 1516190205492
+}

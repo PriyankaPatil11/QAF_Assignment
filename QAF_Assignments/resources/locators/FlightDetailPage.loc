@@ -1,0 +1,5 @@
+txt.flyingDate.detailPage = {\"locator\":\"id=departure-date-0\",\"desc\":\"Flying Date\"}
+txt.ReturnDate.detailPage = {\"locator\":\"id=departure-date-1\",\"desc\":\"Return Date\"}
+txt.DepartureAirport.detailPage = {\"locator\":\"xpath=//div[contains(@id, 'departure-airport-automation-label')]\",\"desc\":\"Departure Airport Name\"}
+txt.arrivalAirport.detailPage = {\"locator\":\"xpath=//div[contains(@id, 'arrival-airportcode-automation-label')]\",\"desc\":\"Arrival Airport Name\"}
+txt.header.detailPage = {\"locator\":\"xpath=//h1[contains(text(),'Review your trip')]\",\"desc\":\"Review Flight header\"}

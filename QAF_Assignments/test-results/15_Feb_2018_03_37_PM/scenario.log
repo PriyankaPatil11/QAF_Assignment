@@ -1,0 +1,34 @@
+15:38:01 scenario.file.loc[Ljava.lang.String;@133e16fd
+15:38:01 loading BDD file: scenarios/FlightSearchScenario.bdd
+15:38:01 total test found: 1
+15:38:01 
+
+Executing scenario: Search Flight - Search flight for different destinations
+15:38:01 Test Data{Source=Mumbai, India (BOM-Chhatrapati Shivaji Intl.), Destination=Bengaluru, India (BLR-Kempegowda Intl.), DepartureDate=02/19/2018, ReturnDate=03/08/2018, expected=BOM - BLR}
+15:38:01 pkg: com.qmetry.qaf.automation.step
+15:38:01 pkg: com.qaf_assignments
+15:38:01 Found duplicate step to load [] with [lower] prority then []
+15:38:01 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="get'\'")
+public void get(){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+15:38:01 Competed scenario: Search Flight with status FAILURE
+15:38:01 
+
+Executing scenario: Search Flight - Search flight for different destinations
+15:38:01 Test Data{Source=Pune, India (PNQ-Lohegaon), Destination=Delhi, India (DEL-Indira Gandhi Intl.), DepartureDate=02/19/2018, ReturnDate=03/08/2018, expected=PNQ - DEL}
+15:38:01 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="get'\'")
+public void get(){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+15:38:01 Competed scenario: Search Flight with status FAILURE

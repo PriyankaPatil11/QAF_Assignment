@@ -1,0 +1,64 @@
+17:31:13 scenario.file.loc[Ljava.lang.String;@133e16fd
+17:31:13 loading BDD file: scenarios/FlightSearchScenario.bdd
+17:31:13 total test found: 1
+17:31:13 
+
+Executing scenario: Search Flight - Search flight for different destinations
+17:31:13 Test Data{Source=Mumbai, India (BOM-Chhatrapati Shivaji Intl.), Destination=Bengaluru, India (BLR-Kempegowda Intl.), DepartureDate=02/19/2018, ReturnDate=03/08/2018, expected=BOM - BLR}
+17:31:13 pkg: com.qmetry.qaf.automation.step
+17:31:13 pkg: com.qaf_assignments
+17:31:13 Found duplicate step to load [] with [lower] prority then []
+17:31:13 Invoking Teststep: Given Open Tourism website
+17:31:37 Completed Teststep: Given Open Tourism website
+17:31:37 Invoking Teststep: When Navigate on Flight tab
+17:31:37 Completed Teststep: When Navigate on Flight tab
+17:31:37 Invoking Teststep: And Enter Flying from as '${Source}' with arguments: [${Source}]
+17:31:37 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Mumbai, India (BOM-Chhatrapati Shivaji Intl.), txtbox.flyingFrom.flightsearch]
+17:31:39 Completed Teststep: sendKeys {text} into {loc} with arguments: [Mumbai, India (BOM-Chhatrapati Shivaji Intl.), txtbox.flyingFrom.flightsearch]
+17:31:39 Completed Teststep: And Enter Flying from as 'Mumbai, India (BOM-Chhatrapati Shivaji Intl.)' with arguments: [${Source}]
+17:31:39 Invoking Teststep: Then Enter Flying To as '${Destination}' with arguments: [${Destination}]
+17:31:39 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Bengaluru, India (BLR-Kempegowda Intl.), txtbox.flyingTo.flightsearch]
+17:31:39 Completed Teststep: sendKeys {text} into {loc} with arguments: [Bengaluru, India (BLR-Kempegowda Intl.), txtbox.flyingTo.flightsearch]
+17:31:39 Completed Teststep: Then Enter Flying To as 'Bengaluru, India (BLR-Kempegowda Intl.)' with arguments: [${Destination}]
+17:31:39 Invoking Teststep: When Enter Departure date as '${DepartureDate}' with arguments: [${DepartureDate}]
+17:31:40 Invoking Teststep: sendKeys {text} into {loc} with arguments: [02/19/2018, txtbox.departingDate.flightsearch]
+17:31:40 Completed Teststep: sendKeys {text} into {loc} with arguments: [02/19/2018, txtbox.departingDate.flightsearch]
+17:31:40 Completed Teststep: When Enter Departure date as '02/19/2018' with arguments: [${DepartureDate}]
+17:31:40 Invoking Teststep: And Enter Return date as '${ReturnDate}' with arguments: [${ReturnDate}]
+17:31:40 Invoking Teststep: sendKeys {text} into {loc} with arguments: [03/08/2018, txtbox.returningDate.flightsearch]
+17:31:40 Completed Teststep: sendKeys {text} into {loc} with arguments: [03/08/2018, txtbox.returningDate.flightsearch]
+17:31:40 Completed Teststep: And Enter Return date as '03/08/2018' with arguments: [${ReturnDate}]
+17:31:40 Invoking Teststep: Then click on Search button
+17:31:51 Completed Teststep: Then click on Search button
+17:31:51 Invoking Teststep: Then Validate the result '${expected}' from 'lnk.sourceDestination.result' with arguments: [${expected}, lnk.sourceDestination.result]
+17:31:54 Completed Teststep: Then Validate the result 'BOM - BLR' from 'lnk.sourceDestination.result' with arguments: [${expected}, lnk.sourceDestination.result]
+17:31:54 Competed scenario: Search Flight with status SUCESS
+17:31:54 
+
+Executing scenario: Search Flight - Search flight for different destinations
+17:31:54 Test Data{Source=Pune, India (PNQ-Lohegaon), Destination=Delhi, India (DEL-Indira Gandhi Intl.), DepartureDate=02/19/2018, ReturnDate=03/08/2018, expected=PNQ - DEL}
+17:31:54 Invoking Teststep: Given Open Tourism website
+17:31:59 Completed Teststep: Given Open Tourism website
+17:31:59 Invoking Teststep: When Navigate on Flight tab
+17:31:59 Completed Teststep: When Navigate on Flight tab
+17:31:59 Invoking Teststep: And Enter Flying from as '${Source}' with arguments: [${Source}]
+17:32:00 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Pune, India (PNQ-Lohegaon), txtbox.flyingFrom.flightsearch]
+17:32:01 Completed Teststep: sendKeys {text} into {loc} with arguments: [Pune, India (PNQ-Lohegaon), txtbox.flyingFrom.flightsearch]
+17:32:01 Completed Teststep: And Enter Flying from as 'Pune, India (PNQ-Lohegaon)' with arguments: [${Source}]
+17:32:01 Invoking Teststep: Then Enter Flying To as '${Destination}' with arguments: [${Destination}]
+17:32:01 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Delhi, India (DEL-Indira Gandhi Intl.), txtbox.flyingTo.flightsearch]
+17:32:02 Completed Teststep: sendKeys {text} into {loc} with arguments: [Delhi, India (DEL-Indira Gandhi Intl.), txtbox.flyingTo.flightsearch]
+17:32:02 Completed Teststep: Then Enter Flying To as 'Delhi, India (DEL-Indira Gandhi Intl.)' with arguments: [${Destination}]
+17:32:02 Invoking Teststep: When Enter Departure date as '${DepartureDate}' with arguments: [${DepartureDate}]
+17:32:02 Invoking Teststep: sendKeys {text} into {loc} with arguments: [02/19/2018, txtbox.departingDate.flightsearch]
+17:32:02 Completed Teststep: sendKeys {text} into {loc} with arguments: [02/19/2018, txtbox.departingDate.flightsearch]
+17:32:02 Completed Teststep: When Enter Departure date as '02/19/2018' with arguments: [${DepartureDate}]
+17:32:02 Invoking Teststep: And Enter Return date as '${ReturnDate}' with arguments: [${ReturnDate}]
+17:32:02 Invoking Teststep: sendKeys {text} into {loc} with arguments: [03/08/2018, txtbox.returningDate.flightsearch]
+17:32:03 Completed Teststep: sendKeys {text} into {loc} with arguments: [03/08/2018, txtbox.returningDate.flightsearch]
+17:32:03 Completed Teststep: And Enter Return date as '03/08/2018' with arguments: [${ReturnDate}]
+17:32:03 Invoking Teststep: Then click on Search button
+17:32:14 Completed Teststep: Then click on Search button
+17:32:14 Invoking Teststep: Then Validate the result '${expected}' from 'lnk.sourceDestination.result' with arguments: [${expected}, lnk.sourceDestination.result]
+17:32:18 Completed Teststep: Then Validate the result 'PNQ - DEL' from 'lnk.sourceDestination.result' with arguments: [${expected}, lnk.sourceDestination.result]
+17:32:18 Competed scenario: Search Flight with status SUCESS

@@ -5,16 +5,16 @@
 		<details>
 			<Source>Mumbai, India (BOM-Chhatrapati Shivaji Intl.)</Source>
 			<Destination>Bengaluru, India (BLR-Kempegowda Intl.)</Destination>
-			<DepartureDate>02/19/2018</DepartureDate>
-			<ReturnDate>03/08/2018</ReturnDate>
+			<DepartureDate>06/19/2018</DepartureDate>
+			<ReturnDate>08/08/2018</ReturnDate>
 			<expected>BOM - BLR</expected>
 		</details>
 
 		<details>
 			<Source>Pune, India (PNQ-Lohegaon)</Source>
 			<Destination>Delhi, India (DEL-Indira Gandhi Intl.)</Destination>
-			<DepartureDate>02/19/2018</DepartureDate>
-			<ReturnDate>03/08/2018</ReturnDate>
+			<DepartureDate>06/19/2018</DepartureDate>
+			<ReturnDate>08/08/2018</ReturnDate>
 			<expected>PNQ - DEL</expected>
 		</details>
 

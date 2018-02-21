@@ -1,6 +1,16 @@
 
-SCENARIO: Search Flight
-META-DATA: {"description":"Search flight for different destinations","groups":["P1"],"key":"flight.details"}
-	get'\'
+
+SCENARIO: Flight Search
+META-DATA: {"description":"Search for Flight","groups":["P2","SMOKE"],"key":"flight.details"}
+	
+	Given Open Tourism website
+	When Navigate on Flight tab
+	And Enter Flying from as '${Source}'
+	Then Enter Flying To as '${Destination}'
+	When Enter Departure date as '${DepartureDate}'
+	And Enter Return date as '${ReturnDate}'
+	Then click on Search button
+	When Validate the result '${expected}' from '${lnk.sourceDestination.result}'
+	
 END
 

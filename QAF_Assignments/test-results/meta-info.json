@@ -2,6 +2,16 @@
   "reports": [
     {
       "name": "QAF_Assignments.scenarios.FlightSearchScenario.bdd",
+      "dir": "test-results/21_Feb_2018_11_59_AM/json",
+      "startTime": 1519194599936
+    },
+    {
+      "name": "QAF_Assignments.scenarios.FlightSearchScenario.bdd",
+      "dir": "test-results/21_Feb_2018_11_58_AM/json",
+      "startTime": 1519194519396
+    },
+    {
+      "name": "QAF_Assignments.scenarios.FlightSearchScenario.bdd",
       "dir": "test-results/15_Feb_2018_03_37_PM/json",
       "startTime": 1518689281289
     },

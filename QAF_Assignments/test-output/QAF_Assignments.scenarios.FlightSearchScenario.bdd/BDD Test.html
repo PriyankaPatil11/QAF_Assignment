@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>BDD Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/2</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Feb 15 15:38:01 IST 2018</td>
+<td>Started on:</td><td>Wed Feb 21 12:00:00 IST 2018</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (481 ms)</td>
+<tr><td>Total time:</td><td>48 seconds (48936 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,50 +67,36 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Search Flight()'><b>Search Flight</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Search Flight)<br>Test method: Search flight for different destinations<br>Parameters: {Source=Mumbai, India (BOM-Chhatrapati Shivaji Intl.), Destination=Bengaluru, India (BLR-Kempegowda Intl.), DepartureDate=02/19/2018, ReturnDate=03/08/2018, expected=BOM - BLR}<br/>
-<a href="#Output-1932274274" onClick='toggleBox("Output-1932274274", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Flight Search()'><b>Flight Search</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Flight Search)<br>Test method: Search for Flight<br>Parameters: {Source=Mumbai, India (BOM-Chhatrapati Shivaji Intl.), Destination=Bengaluru, India (BLR-Kempegowda Intl.), DepartureDate=06/19/2018, ReturnDate=08/08/2018, expected=BOM - BLR}<br/>
+<a href="#Output-1792227359" onClick='toggleBox("Output-1792227359", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1932274274" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1932274274">
-<div style="display:block;margin-left:10px;"><div  class="warn"><span class="warn-label">W </span>get'\' :: Not Found.</div></div><br/>
+<a href="#Output-1792227359" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1792227359">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given Open Tourism website</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When Navigate on Flight tab</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And Enter Flying from as 'Mumbai, India (BOM-Chhatrapati Shivaji Intl.)'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Mumbai, India (BOM-Chhatrapati Shivaji Intl.)' into 'txtbox.flyingFrom.flightsearch'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then Enter Flying To as 'Bengaluru, India (BLR-Kempegowda Intl.)'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Bengaluru, India (BLR-Kempegowda Intl.)' into 'txtbox.flyingTo.flightsearch'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When Enter Departure date as '06/19/2018'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '06/19/2018' into 'txtbox.departingDate.flightsearch'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And Enter Return date as '08/08/2018'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '08/08/2018' into 'txtbox.returningDate.flightsearch'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then click on Search button</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When Validate the result 'BOM - BLR' from '{"locator":"xpath=//div[@data-test-id='airports']","desc":"source and destination links from results"}'</div></div><br/>
 </div>
 </td>
-<td><div><pre>com.qmetry.qaf.automation.step.StepNotFoundException: get&apos;\&apos;@scenarios/FlightSearchScenario.bdd#4 TestStep implementation not found. 
- Please provide implementation or ensure &apos;step.provider.pkg&apos; property value includes appropriate package.
-	at .get&apos;\&apos;(scenarios/FlightSearchScenario.bdd:4)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1932274274", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1932274274'><pre>com.qmetry.qaf.automation.step.StepNotFoundException: get&apos;\&apos;@scenarios/FlightSearchScenario.bdd#4 TestStep implementation not found. 
- Please provide implementation or ensure &apos;step.provider.pkg&apos; property value includes appropriate package.
-	at .get&apos;\&apos;(scenarios/FlightSearchScenario.bdd:4)
-</pre></div></td>
-<td>0</td>
+<td></td>
+<td>30</td>
 <td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
 <tr>
-<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Search Flight()'><b>Search Flight</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Search Flight)<br>Test method: Search flight for different destinations<br>Parameters: {Source=Pune, India (PNQ-Lohegaon), Destination=Delhi, India (DEL-Indira Gandhi Intl.), DepartureDate=02/19/2018, ReturnDate=03/08/2018, expected=PNQ - DEL}<br/>
-<a href="#Output-1720339" onClick='toggleBox("Output-1720339", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Flight Search()'><b>Flight Search</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Flight Search)<br>Test method: Search for Flight<br>Parameters: {Source=Pune, India (PNQ-Lohegaon), Destination=Delhi, India (DEL-Indira Gandhi Intl.), DepartureDate=06/19/2018, ReturnDate=08/08/2018, expected=PNQ - DEL}<br/>
+<a href="#Output-337799666" onClick='toggleBox("Output-337799666", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1720339" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1720339">
-<div style="display:block;margin-left:10px;"><div  class="warn"><span class="warn-label">W </span>get'\' :: Not Found.</div></div><br/>
+<a href="#Output-337799666" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-337799666">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given Open Tourism website</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When Navigate on Flight tab</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And Enter Flying from as 'Pune, India (PNQ-Lohegaon)'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Pune, India (PNQ-Lohegaon)' into 'txtbox.flyingFrom.flightsearch'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then Enter Flying To as 'Delhi, India (DEL-Indira Gandhi Intl.)'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Delhi, India (DEL-Indira Gandhi Intl.)' into 'txtbox.flyingTo.flightsearch'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When Enter Departure date as '06/19/2018'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '06/19/2018' into 'txtbox.departingDate.flightsearch'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And Enter Return date as '08/08/2018'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '08/08/2018' into 'txtbox.returningDate.flightsearch'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then click on Search button</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When Validate the result 'PNQ - DEL' from '{"locator":"xpath=//div[@data-test-id='airports']","desc":"source and destination links from results"}'</div></div><br/>
 </div>
 </td>
-<td><div><pre>com.qmetry.qaf.automation.step.StepNotFoundException: get&apos;\&apos;@scenarios/FlightSearchScenario.bdd#4 TestStep implementation not found. 
- Please provide implementation or ensure &apos;step.provider.pkg&apos; property value includes appropriate package.
-	at .get&apos;\&apos;(scenarios/FlightSearchScenario.bdd:4)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1720339", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1720339'><pre>com.qmetry.qaf.automation.step.StepNotFoundException: get&apos;\&apos;@scenarios/FlightSearchScenario.bdd#4 TestStep implementation not found. 
- Please provide implementation or ensure &apos;step.provider.pkg&apos; property value includes appropriate package.
-	at .get&apos;\&apos;(scenarios/FlightSearchScenario.bdd:4)
-</pre></div></td>
-<td>0</td>
+<td></td>
+<td>18</td>
 <td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
 </table><p>
 </body>
